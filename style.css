@@ -1,20 +1,42 @@
-* {
-  padding: 0;
+body {
   margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 0 100px;
+  background: #3c3a39;
+  width: 100%;
   box-sizing: border-box;
 }
 
-.nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px 20px;
-  background-color: black;
-  font-size: 18px;
+header .logo {
+  color: #fff;
+  height: 50px;
+  line-height: 50px;
+  font-size: 24px;
+  float: left;
+  font-weight: bold;
 }
 
-.nav i {
+.menu-toggle {
   color: #fff;
+  float: right;
+  line-height: 50px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 767.98px) {
+  header {
+    padding: 0 20px;
+  }
 }
 
 .headline-page {
@@ -26,35 +48,9 @@
   background-repeat: no-repeat;
   background-position: right bottom;
   padding-top: 120px;
+  padding-left: 24px;
+  padding-right: 24px;
   background-size: 80px 220px;
-}
-
-.name {
-  width: 90px;
-  height: 28px;
-  top: 10px;
-  color: #fff;
-}
-
-.intro {
-  font-family: monospace;
-  font-style: normal;
-  font-size: 56px;
-  line-height: 64px;
-  letter-spacing: 0.37px;
-  color: #ff6b00;
-  margin-left: 12px;
-}
-
-.body {
-  flex-direction: column;
-  align-items: flex-start;
-  padding: 120px 24px;
-  position: absolute;
-  height: 590px;
-  left: 0;
-  top: 92px;
-  background-color: #1c1a19;
 }
 
 .social-icons {
@@ -70,93 +66,110 @@
   color: #fff;
 }
 
-.headline-page-h2 {
-  margin: 0 12px;
-  font-weight: bold;
-  line-height: 32px;
-  font-style: normal;
-  color: #fff5e1;
+.headline-page {
+  display: flex;
+  flex-direction: column;
+  background-color: #1c1a19;
+  color: white;
+  background-image: url(images/f.png);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  padding-top: 120px;
+  margin-bottom: 13%;
+  background-size: 80px 220px;
 }
 
-.text-1 {
-  font-size: 16px;
-  line-height: 24px;
-  font-family: Poppins, sans-serif;
-  font-weight: normal;
-  color: #fff;
-  margin: 12px 0;
+.intro {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 44px;
+  line-height: 64px;
+  letter-spacing: 0.37px;
+  color: #ff6b00;
   margin-left: 12px;
 }
 
-.description {
+.middle_container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.middle {
+  margin: 10px;
+  width: 65%;
+}
+
+.middle_container > img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+}
+
+.main_block {
+  margin: 10px;
+  width: 400px;
+}
+
+.post {
   position: static;
-  width: 327px;
-  height: 123px;
-  left: 24px;
-  top: 295px;
-  font-family: monospace;
+  width: 300px;
+  height: 36px;
+  left: 10;
+  top: 0;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 16px;
-  line-height: 24px;
+  font-size: 32px;
+  line-height: 44px;
+  color: #091e42;
+  padding: 10px;
+}
+
+.btn_project {
+  background-color: #ff6b00;
   color: #fff;
-  flex: none;
-  flex-grow: 0;
-  margin: 12px 0;
+  font-size: 17px;
+  width: 124px;
+  height: 48px;
+  padding: 5px;
+  margin-top: 16px;
+  left: 1px;
+  margin-left: 1px;
+  border: 0;
 }
 
-h2 {
-  position: static;
-  width: 327px;
-  height: 27px;
-  left: 24px;
-  top: 256px;
-  font-family: monospace;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 24px;
-  line-height: 32px;
+.buttonsn {
   display: flex;
-  align-items: center;
-  color: #fff5e1;
+  justify-content: space-between;
+  align-content: space-around;
+  border: 1px;
+  color: #8993a4;
+  width: 80%;
 }
 
-.media1 {
-  left: 0.08%;
-  right: 0.01%;
-  top: 0%;
-  bottom: 0%;
+.css {
+  background-color: #fff;
+  width: 46px;
+  height: 40px;
 }
 
-.media2 {
-  left: 0%;
-  right: 75.13%;
-  top: 0%;
-  bottom: 75.17%;
+.html {
+  background-color: #fff;
+  width: 46px;
+  height: 40px;
 }
 
-.media3 {
-  left: 14.58%;
-  right: 14.58%;
-  top: 0%;
-  bottom: 0%;
+.boots {
+  background-color: #fff;
+  width: 68px;
+  height: 40px;
 }
 
-.media4 {
-  left: 0.04%;
-  right: 0.03%;
-  top: 0.02%;
-  bottom: 0%;
-}
-
-.media5 {
-  left: 8.33%;
-  right: 8.33%;
-  top: 16.67%;
-  bottom: 16.67%;
-}
-
-.footer-image {
-  width: 3px;
-  background: #fff;
+.ruby {
+  background-color: #fff;
+  width: 46px;
+  height: 40px;
 }

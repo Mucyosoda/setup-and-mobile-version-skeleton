@@ -4,7 +4,7 @@
 
 > One paragraph statement about the project.
 
-![screenshot](./app_screenshot.JPG)
+![screenshot](./app_screenshot2.JPG)
 
 Additional description about the project and its features.
 
@@ -22,7 +22,7 @@ Additional description about the project and its features.
 
 ```
 first clone my repository by using this link:https://github.com/Mucyosoda/setup-and-mobile-version-skeleton
-cd Hello-Microverse
+cd setup-and-mobile-version-skeleton/mobileVersion
 Open Vs code then click on Go Live then you will be able to see the code live
 ```
 
