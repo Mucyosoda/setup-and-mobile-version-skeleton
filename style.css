@@ -1,0 +1,156 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: black;
+  font-size: 18px;
+}
+
+.nav i {
+  color: #fff;
+}
+
+.headline-page {
+  display: flex;
+  flex-direction: column;
+  background-color: #1c1a19;
+  color: white;
+  background-image: url(images/f.png);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  padding-top: 120px;
+  background-size: 80px 220px;
+}
+.name {
+  width: 90px;
+  height: 28px;
+  top: 10px;
+  color: #fff;
+}
+
+.intro {
+  font-family: Crete Round;
+  font-style: normal;
+  font-size: 56px;
+  line-height: 64px;
+  letter-spacing: 0.37px;
+  color: #ff6b00;
+  margin-left: 12px;
+}
+
+.body {
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 120px 24px;
+  position: absolute;
+  height: 590px;
+  left: 0px;
+  top: 92px;
+  background-color: #1c1a19;
+}
+
+.social-icons {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  width: 50%;
+  margin: 12px;
+  margin-bottom: 100px;
+}
+
+.social-icons a {
+  color: #fff;
+}
+
+.headline-page-h2 {
+  margin: 0 12px;
+  font-weight: bold;
+  line-height: 32px;
+  font-style: normal;
+  color: #fff5e1;
+}
+
+.text-1 {
+  font-size: 16px;
+  line-height: 24px;
+  font-family: Poppins, sans-serif;
+  font-weight: normal;
+  color: #fff;
+  margin: 12px 0;
+  margin-left: 12px;
+}
+.description {
+  position: static;
+  width: 327px;
+  height: 123px;
+  left: 24px;
+  top: 295px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+  margin: 12px 0px;
+}
+h2 {
+  position: static;
+  width: 327px;
+  height: 27px;
+  left: 24px;
+  top: 256px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 32px;
+  display: flex;
+  align-items: center;
+  color: #fff5e1;
+}
+
+.media1 {
+  left: 0.08%;
+  right: 0.01%;
+  top: 0%;
+  bottom: 0%;
+}
+.media2 {
+  left: 0%;
+  right: 75.13%;
+  top: 0%;
+  bottom: 75.17%;
+}
+.media3 {
+  left: 14.58%;
+  right: 14.58%;
+  top: 0%;
+  bottom: 0%;
+}
+.media4 {
+  left: 0.04%;
+  right: 0.03%;
+  top: 0.02%;
+  bottom: 0%;
+}
+.media5 {
+  left: 8.33%;
+  right: 8.33%;
+  top: 16.67%;
+  bottom: 16.67%;
+}
+.footer-image {
+  width: 3px;
+  background: #ffffff;
+}
