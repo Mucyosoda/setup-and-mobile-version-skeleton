@@ -1,59 +1,45 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Claude Mucyo Ntacyonungutse
 
 > One paragraph statement about the project.
 
-![screenshot](./app_screenshot.png)
+![screenshot](./app_screenshot.JPG)
 
 Additional description about the project and its features.
 
 ## Built With
 
 - Major languages
-- Frameworks
-- Technologies used
+- CSS
+- HTML
 
 ## Live Demo
 
 [Live Demo Link](https://livedemo.com)
 
-
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
+```
+first clone my repository by using this link:https://github.com/Mucyosoda/setup-and-mobile-version-skeleton
+cd Hello-Microverse
+Open Vs code then click on Go Live then you will be able to see the code live
+```
 
 ### Prerequisites
 
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
+- Text editor
+- Git
+- Html
+- Css
 
 ## Authors
 
-👤 **Author1**
+👤 **Claude Mucyo **
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@githubhandle](https://github.com/Mucyosoda)
 
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+👤
 
 ## 🤝 Contributing
 
