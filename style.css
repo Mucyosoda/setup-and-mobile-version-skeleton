@@ -28,6 +28,7 @@
   padding-top: 120px;
   background-size: 80px 220px;
 }
+
 .name {
   width: 90px;
   height: 28px;
@@ -36,7 +37,7 @@
 }
 
 .intro {
-  font-family: Crete Round;
+  font-family: "Crete-Round";
   font-style: normal;
   font-size: 56px;
   line-height: 64px;
@@ -51,7 +52,7 @@
   padding: 120px 24px;
   position: absolute;
   height: 590px;
-  left: 0px;
+  left: 0;
   top: 92px;
   background-color: #1c1a19;
 }
@@ -86,31 +87,31 @@
   margin: 12px 0;
   margin-left: 12px;
 }
+
 .description {
   position: static;
   width: 327px;
   height: 123px;
   left: 24px;
   top: 295px;
-  font-family: Poppins;
+  font-family: "Poppins";
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
   line-height: 24px;
-  color: #ffffff;
+  color: #fff;
   flex: none;
-  order: 2;
   flex-grow: 0;
-  margin: 12px 0px;
+  margin: 12px 0;
 }
+
 h2 {
   position: static;
   width: 327px;
   height: 27px;
   left: 24px;
   top: 256px;
-
-  font-family: Roboto;
+  font-family: "Roboto";
   font-style: normal;
   font-weight: bold;
   font-size: 24px;
@@ -126,31 +127,36 @@ h2 {
   top: 0%;
   bottom: 0%;
 }
+
 .media2 {
   left: 0%;
   right: 75.13%;
   top: 0%;
   bottom: 75.17%;
 }
+
 .media3 {
   left: 14.58%;
   right: 14.58%;
   top: 0%;
   bottom: 0%;
 }
+
 .media4 {
   left: 0.04%;
   right: 0.03%;
   top: 0.02%;
   bottom: 0%;
 }
+
 .media5 {
   left: 8.33%;
   right: 8.33%;
   top: 16.67%;
   bottom: 16.67%;
 }
+
 .footer-image {
   width: 3px;
-  background: #ffffff;
+  background: #fff;
 }
