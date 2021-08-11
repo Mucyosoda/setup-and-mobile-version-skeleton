@@ -48,8 +48,7 @@ header .logo {
   background-repeat: no-repeat;
   background-position: right bottom;
   padding-top: 120px;
-  padding-left: 24px;
-  padding-right: 24px;
+  margin-bottom: 13%;
   background-size: 80px 220px;
 }
 
@@ -64,19 +63,6 @@ header .logo {
 
 .social-icons a {
   color: #fff;
-}
-
-.headline-page {
-  display: flex;
-  flex-direction: column;
-  background-color: #1c1a19;
-  color: white;
-  background-image: url(images/f.png);
-  background-repeat: no-repeat;
-  background-position: right bottom;
-  padding-top: 120px;
-  margin-bottom: 13%;
-  background-size: 80px 220px;
 }
 
 .intro {
@@ -116,10 +102,9 @@ header .logo {
   position: static;
   width: 300px;
   height: 36px;
-  left: 10;
+  left: 10px;
   top: 0;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-family: inherit;
   font-style: normal;
   font-weight: normal;
   font-size: 32px;
