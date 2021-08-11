@@ -37,7 +37,7 @@
 }
 
 .intro {
-  font-family: "Crete-Round";
+  font-family: "monospace";
   font-style: normal;
   font-size: 56px;
   line-height: 64px;
@@ -94,7 +94,7 @@
   height: 123px;
   left: 24px;
   top: 295px;
-  font-family: "Poppins";
+  font-family: "monospace";
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -111,7 +111,7 @@ h2 {
   height: 27px;
   left: 24px;
   top: 256px;
-  font-family: "Roboto";
+  font-family: "monospace";
   font-style: normal;
   font-weight: bold;
   font-size: 24px;
