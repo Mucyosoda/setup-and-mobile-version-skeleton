@@ -2,7 +2,7 @@
 
 # Claude Mucyo Ntacyonungutse
 
-> This project is a setup and mobile version skeleton, first Microverse project, and is continuous project.
+> This project is a setup and mobile version, second Microverse project, and is continuous project.
 
 ![screenshot](./app_screenshot.JPG)
 
@@ -20,13 +20,6 @@ first clone my repository by using this link:https://github.com/Mucyosoda/setup-
 cd Hello-Microverse
 Open Vs code then click on Go Live then you will be able to see the code live
 ```
-
-### Prerequisites
-
-- Text editor
-- Git
-- Html
-- Css
 
 ## Authors
 
