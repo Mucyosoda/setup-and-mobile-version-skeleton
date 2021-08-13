@@ -3,9 +3,11 @@
   margin: 0;
   box-sizing: border-box;
 }
+
 .main_section {
   display: grid;
 }
+
 .nav {
   display: flex;
   justify-content: space-between;
@@ -149,9 +151,8 @@
   position: static;
   width: 327px;
   height: 147px;
-  left: 0;
   top: 48px;
-  font-family: Round;
+  font-family: "Round";
   font-size: 20px;
   line-height: 24px;
   color: #091e42;
@@ -204,7 +205,7 @@ hr.line2 {
   height: 81px;
   left: 16px;
   top: 8px;
-  font-family: Round;
+  font-family: "Round";
   font-size: 32px;
   line-height: 44px;
   margin: 12px 0px;
@@ -217,8 +218,7 @@ hr.line2 {
   height: 87px;
   left: 16px;
   top: 101px;
-  font-family: round;
-  font-weight: 0;
+  font-family: "Round";
   font-size: 20px;
   line-height: 24px;
   margin-bottom: 30px;
@@ -241,7 +241,6 @@ hr.line2 {
   display: flex;
   flex-direction: row;
   color: #fff;
-
   margin-right: 50px;
 }
 
@@ -300,6 +299,7 @@ hr.line2 {
 
   background-size: 150px 250px;
 }
+
 .last_page h1 {
   color: #ff6b00;
   margin-top: 80px;
@@ -336,10 +336,12 @@ hr.line2 {
   margin-left: 30px;
   text-align: center;
 }
+
 .list {
   list-style: none;
   margin-bottom: 30px;
 }
+
 .list li {
   margin-bottom: 20px;
   text-align: center;
@@ -357,6 +359,7 @@ input[type="text"] {
   border: none;
   border-bottom: 2px solid #dbd8d7;
 }
+
 .footer {
   width: 375px;
   margin: 30px;
@@ -385,6 +388,7 @@ textarea {
   font-size: 16px;
   resize: none;
 }
+
 .txt {
   color: #bbc4cc8a;
 }
