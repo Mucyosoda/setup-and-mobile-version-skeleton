@@ -2,27 +2,22 @@
 
 # Claude Mucyo Ntacyonungutse
 
-> One paragraph statement about the project.
+> This project is a setup and mobile version skeleton, first Microverse project, and is continuous project.
 
-![screenshot](./app_screenshot2.JPG)
+![screenshot](./app_screenshot.JPG)
 
 Additional description about the project and its features.
 
 ## Built With
 
-- Major languages
 - CSS
 - HTML
-
-## Live Demo
-
-[Live Demo Link](https://livedemo.com)
 
 ## Getting Started
 
 ```
 first clone my repository by using this link:https://github.com/Mucyosoda/setup-and-mobile-version-skeleton
-cd setup-and-mobile-version-skeleton/mobileVersion
+cd Hello-Microverse
 Open Vs code then click on Go Live then you will be able to see the code live
 ```
 
@@ -37,15 +32,9 @@ Open Vs code then click on Go Live then you will be able to see the code live
 
 👤 **Claude Mucyo **
 
-- GitHub: [@githubhandle](https://github.com/Mucyosoda)
-
-👤
-
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
-
-Feel free to check the [issues page](../../issues/).
 
 ## Show your support
 

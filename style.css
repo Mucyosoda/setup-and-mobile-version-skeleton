@@ -1,42 +1,20 @@
-body {
-  margin: 0;
+* {
   padding: 0;
-  font-family: sans-serif;
-  background-attachment: fixed;
-  background-position: center;
-}
-
-header {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  padding: 0 100px;
-  background: #3c3a39;
-  width: 100%;
+  margin: 0;
   box-sizing: border-box;
 }
 
-header .logo {
-  color: #fff;
-  height: 50px;
-  line-height: 50px;
-  font-size: 24px;
-  float: left;
-  font-weight: bold;
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: black;
+  font-size: 18px;
 }
 
-.menu-toggle {
+.nav i {
   color: #fff;
-  float: right;
-  line-height: 50px;
-  cursor: pointer;
-}
-
-@media screen and (max-width: 767.98px) {
-  header {
-    padding: 0 20px;
-  }
 }
 
 .headline-page {
@@ -48,113 +26,73 @@ header .logo {
   background-repeat: no-repeat;
   background-position: right bottom;
   padding-top: 120px;
-  margin-bottom: 13%;
-  background-size: 80px 220px;
+  padding-bottom: 20px;
+  padding-left: 10px;
+  padding-right: 20px;
+  background-size: 150px 520px;
 }
 
-.social-icons {
-  display: flex;
-  list-style: none;
-  justify-content: space-between;
-  width: 50%;
-  margin: 12px;
-  margin-bottom: 100px;
-}
-
-.social-icons a {
+.name {
+  width: 90px;
+  height: 28px;
+  top: 10px;
   color: #fff;
 }
 
 .intro {
-  font-family: "Courier New", Courier, monospace;
-  font-weight: 700;
+  font-family: "Times New Roman", Times, serif;
   font-style: normal;
-  font-size: 44px;
+  font-size: 56px;
   line-height: 64px;
   letter-spacing: 0.37px;
   color: #ff6b00;
   margin-left: 12px;
 }
 
-.middle_container {
+.body {
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 120px 24px;
+  position: absolute;
+  height: 590px;
+  left: 0;
+  top: 92px;
+  background-color: #1c1a19;
+}
+
+.social-icons {
   display: flex;
-  flex-wrap: wrap;
+  list-style: none;
+  justify-content: left;
+  justify-items: left;
+  width: 100%;
+  height: 16ch;
+  margin: 12px;
+  margin-bottom: 100px;
+  font-size: 26px;
 }
 
-.middle {
-  margin: 10px;
-  width: 65%;
-}
-
-.middle_container > img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 90%;
-}
-
-.main_block {
-  margin: 10px;
-  width: 400px;
-}
-
-.post {
-  position: static;
-  width: 300px;
-  height: 36px;
-  left: 10px;
-  top: 0;
-  font-family: inherit;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 32px;
-  line-height: 44px;
-  color: #091e42;
-  padding: 10px;
-}
-
-.btn_project {
-  background-color: #ff6b00;
+.social-icons a {
   color: #fff;
-  font-size: 17px;
-  width: 124px;
-  height: 48px;
-  padding: 5px;
-  margin-top: 16px;
-  left: 1px;
-  margin-left: 1px;
-  border: 0;
 }
 
-.buttonsn {
-  display: flex;
-  justify-content: space-between;
-  align-content: space-around;
-  border: 1px;
-  color: #8993a4;
-  width: 80%;
+.headline-page-h2 {
+  margin: 0 12px;
+  font-weight: bold;
+  line-height: 32px;
+  font-style: normal;
+  color: #fff5e1;
+  width: 100%;
+  margin-top: 8px;
 }
 
-.css {
-  background-color: #fff;
-  width: 46px;
-  height: 40px;
-}
-
-.html {
-  background-color: #fff;
-  width: 46px;
-  height: 40px;
-}
-
-.boots {
-  background-color: #fff;
-  width: 68px;
-  height: 40px;
-}
-
-.ruby {
-  background-color: #fff;
-  width: 46px;
-  height: 40px;
+.text-1 {
+  font-size: 16px;
+  line-height: 24px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: normal;
+  color: #fff;
+  margin: 12px 0;
+  margin-left: 12px;
+  width: 100%;
 }
