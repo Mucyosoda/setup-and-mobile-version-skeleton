@@ -2,8 +2,6 @@
 
 # Claude Mucyo Ntacyonungutse
 
-> This project is a setup and mobile version skeleton, first Microverse project, and is continuous project.
-
 ![screenshot](./app_screenshot.JPG)
 
 Additional description about the project and its features.
