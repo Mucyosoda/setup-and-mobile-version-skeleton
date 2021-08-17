@@ -1,8 +1,8 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Claude Mucyo Ntacyonungutse
-
-> This project is a setup and mobile version, second Microverse project, and is continuous project.
+> # chuanqi-mucyo
+>
+> This project is a setup and mobile version, pair program.
 
 ![screenshot](./app_screenshot.JPG)
 
