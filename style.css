@@ -432,3 +432,19 @@ input[type="email"] {
   border: none;
   border-bottom: 2px solid #dbd8d7;
 }
+
+input[type="submit"] {
+  width: 131px;
+  height: 48px;
+  background-color: rgba(255, 107, 0, 1);
+  color: white;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  padding-top: 6px;
+  border: none;
+  margin-left: 120px;
+}
