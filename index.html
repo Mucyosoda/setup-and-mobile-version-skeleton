@@ -195,39 +195,30 @@
             like to chat please get
           </h1>
 
-          <form
-            id="fs-frm"
-            name="simple-contact-form"
-            accept-charset="utf-8"
-            action="https://formspree.io/f/{form_id}"
-            method="post"
-          >
-              <input
-                type="text"
-                name="name"
-                id="full-name"
-                placeholder="Full name"
-                required=""
-              />
-              <input
-                type="email"
-                name="_replyto"
-                id="email-address"
-                placeholder="Email address"
-                required=""
-              />
-              <textarea
-                rows="5"
-                name="message"
-                id="message"
-                required=""
-              >Enter text here</textarea>
-              <input
-                type="hidden"
-                name="_subject"
-                id="email-subject"
-                value="Contact Form Submission"
-              />
+          <form id="fs-frm" name="simple-contact-form">
+            <input
+              type="text"
+              name="name"
+              id="full-name"
+              placeholder="Full name"
+              required=""
+            />
+            <input
+              type="email"
+              name="_replyto"
+              id="email-addres"
+              placeholder="Email address"
+              required=""
+            />
+            <textarea rows="5" name="message" id="message" required="">
+Enter text here</textarea
+            >
+            <input
+              type="hidden"
+              name="_subject"
+              id="email-subject"
+              value="Contact Form Submission"
+            />
             <input type="submit" value="Submit" />
           </form>
         </div>
