@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-> This project is a setup and mobile version, the first pair program.
+> This project is a setup and mobile version, the first pair program.( chuanqi Zhu and Mucyo)
 
 ![screenshot](./app_screenshot1.JPG)
 
