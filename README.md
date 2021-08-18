@@ -2,7 +2,9 @@
 
 > This project is a setup and mobile version, the first pair program.( chuanqi Zhu and Mucyo)
 
-![screenshot](./app_screenshot1.JPG)
+
+> This project is a setup and mobile version skeleton, first Microverse project, and is continuous project.
+
 
 Additional description about the project and its features.
 
