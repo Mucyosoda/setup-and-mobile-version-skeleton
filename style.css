@@ -28,32 +28,15 @@ html {
   background-repeat: no-repeat;
   background-position: right bottom;
   background-size: 70px 150px;
-  padding-top: 120px;
-  padding-bottom: 20px;
-  padding-left: 10px;
-  padding-right: 20px;
-  background-size: 150px 520px;
-
 }
 
 .second_header h1 {
   color: #ff6b00;
 }
 
-
 .second_header h2 {
   color: #fff5e1;
   font-size: 18px;
-
-.intro {
-  font-family: "Times New Roman", Times, serif;
-  font-style: normal;
-  font-size: 56px;
-  line-height: 64px;
-  letter-spacing: 0.37px;
-  color: #ff6b00;
-  margin-left: 12px;
-
 }
 
 .content_1 {
@@ -67,26 +50,16 @@ html {
 
 ul#social-icons li {
   list-style: none;
-
   display: inline;
   color: #fff;
   font-size: 20px;
   margin: 30px 20px 30px 0px;
   left: 0;
-  justify-content: left;
-  justify-items: left;
-  width: 100%;
-  height: 16ch;
-  margin: 12px;
-  margin-bottom: 100px;
-  font-size: 26px;
 }
 
 ul#social-icons a {
   color: #fff;
-  margin-right: 20px;
 }
-
 
 .line1 {
   background-color: rgba(0, 0, 0, 0.507);
@@ -139,6 +112,7 @@ ul#social-icons a {
 .post3 {
   background-color: #ff6b00;
   border: 1px solid #000;
+
   margin-top: 30px;
 }
 
@@ -256,25 +230,4 @@ textarea {
 .social-icons_last a {
   color: #505f79;
   margin-right: 20px;
-  }
-  
-.headline-page-h2 {
-  margin: 0 12px;
-  font-weight: bold;
-  line-height: 32px;
-  font-style: normal;
-  color: #fff5e1;
-  width: 100%;
-  margin-top: 8px;
-}
-
-.text-1 {
-  font-size: 16px;
-  line-height: 24px;
-  font-family: "Times New Roman", Times, serif;
-  font-weight: normal;
-  color: #fff;
-  margin: 12px 0;
-  margin-left: 12px;
-  width: 100%;
 }
