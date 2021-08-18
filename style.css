@@ -62,13 +62,17 @@ html {
   margin-right: 20px;
 }
 
-ul#social-icons li {
+#social-icons li {
   list-style: none;
   display: inline;
   color: #fff;
   font-size: 20px;
   margin: 30px 20px 30px 0;
   left: 0;
+}
+
+#social-icons a {
+  color: #fff;
 }
 
 .line1 {
@@ -124,10 +128,6 @@ ul#social-icons li {
 
 .post2 ul {
   list-style: none;
-}
-
-ul#social-icons a {
-  color: #fff;
 }
 
 #li {
