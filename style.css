@@ -403,6 +403,30 @@ footer {
     padding-top: 80px;
   }
 
+  /* .header:hover {
+    transform: translate(100px);
+  } */
+
+  .fa-twitter:hover {
+    transform: translate(10px);
+  }
+
+  .fa-linkedin:hover {
+    transform: translate(10px);
+  }
+
+  .fa-medium:hover {
+    transform: translate(10px);
+  }
+
+  .fa-github:hover {
+    transform: translate(10px);
+  }
+
+  .fa-angellist:hover {
+    transform: translate(10px);
+  }
+
   main ul {
     padding-top: 130px;
     padding-bottom: 1px;
