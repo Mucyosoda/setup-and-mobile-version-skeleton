@@ -118,6 +118,10 @@ main h2 {
   width: 100%;
 }
 
+.middle-image:hover {
+  transform: scale(1.4);
+}
+
 .post1 {
   padding-left: 30px;
   padding-right: 30px;
