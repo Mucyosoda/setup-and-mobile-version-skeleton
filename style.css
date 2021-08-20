@@ -36,9 +36,14 @@ nav li {
   display: inline;
   padding: 30px;
 }
+
 nav a {
   color: #fff;
   text-decoration: none;
+}
+
+main a {
+  color: #fff;
 }
 
 a:hover,
@@ -70,10 +75,6 @@ main {
 main li {
   display: inline;
   margin-left: 30px;
-}
-
-main a {
-  color: #fff;
 }
 
 main h2 {
@@ -144,7 +145,6 @@ main h2 {
 }
 
 .post2 {
-  background-color: aquamarine;
   justify-content: left;
   left: 0;
   padding-left: 0;
@@ -191,20 +191,20 @@ li.boot {
   height: 100%;
   transition: 0.5s ease;
   opacity: 0;
-  color: white;
   font-size: 20px;
   padding: 20px;
-  text-align: center;
+  padding-top: 90px;
+  text-align: left;
 }
 
 .content_2 .card {
   opacity: 1;
 }
 
-.card {
+/* .card {
   padding-top: 90px;
   text-align: left;
-}
+} */
 
 .card ul {
   list-style-type: none;
@@ -270,7 +270,7 @@ li.boot {
   background-color: #f8f8f8be;
   height: 3px;
   margin-top: 130px;
-  margin-bottom: 30;
+  margin-bottom: 30px;
   border-radius: 2px;
 }
 
@@ -397,21 +397,13 @@ footer {
     background-size: 31% 40%;
     background-clip: content-box;
     height: 50vw;
-  }
-
-  .menu ul {
-    display: block;
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 0;
   }
 
   .humberger {
     display: none;
-  }
-
-  main {
-    display: flex;
-    flex-direction: row-reverse;
-    margin: 0;
-    background-size: 30% 60%;
   }
 
   .header {
@@ -445,6 +437,10 @@ footer {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     padding-top: 12px;
+  }
+
+  .menu ul {
+    display: block;
   }
 
   .my_recent {
@@ -506,12 +502,12 @@ footer {
     width: 90px;
   }
 
-  .post1 button {
+  /* .post1 button {
     margin-top: 24px;
     margin-left: 0;
     padding-left: 0;
     font-size: 20px;
-  }
+  } */
 
   .cards_room {
     display: grid;
@@ -653,6 +649,7 @@ footer {
     justify-content: center;
     padding-left: 50px;
     padding-right: 50px;
+    margin: 0;
   }
 
   .content_4 {
@@ -673,10 +670,10 @@ footer {
     display: none;
   }
 
-  .footer_form {
+  /* .footer_form {
     margin: 0;
     padding: 0;
-  }
+  } */
 
   .form_view1 {
     display: inline-block;
@@ -714,6 +711,13 @@ footer {
     margin-left: 0;
     margin-top: 20px;
     width: 150px;
+  }
+
+  .post1 button {
+    margin-top: 24px;
+    margin-left: 0;
+    padding-left: 0;
+    font-size: 20px;
   }
 
   footer {
