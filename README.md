@@ -1,10 +1,8 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-> This project is a setup and mobile version, the first pair program.( chuanqi Zhu and Mucyo)
+> Desktop version
 
-
-> This project is a setup and mobile version skeleton, first Microverse project, and is continuous project.
-
+> This project is a responsive version website.
 
 Additional description about the project and its features.
 
