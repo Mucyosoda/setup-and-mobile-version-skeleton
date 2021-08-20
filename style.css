@@ -49,7 +49,7 @@ main a {
 
 a:hover,
 a:active {
-  background-color: green;
+  background-color: rgb(33, 34, 36);
   color: white;
 }
 
@@ -402,10 +402,6 @@ footer {
     height: auto;
     padding-top: 80px;
   }
-
-  /* .header:hover {
-    transform: translate(100px);
-  } */
 
   .fa-twitter:hover {
     transform: translate(10px);
