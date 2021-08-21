@@ -27,6 +27,7 @@ nav {
   padding: 15px 60px 5px 60px;
   color: #fff;
   background-color: #3e3c3c;
+  border: 5px solid saddlebrown;
 }
 
 nav ul {
@@ -90,6 +91,7 @@ main h2 {
   display: flex;
   flex-direction: column;
   margin-top: 40px;
+  border: 5px solid saddlebrown;
 }
 
 .my_recent {
@@ -179,35 +181,11 @@ li.boot {
   position: initial;
 }
 
-.content_2 {
-  position: relative;
-  width: 100%;
-}
-
-.image {
-  display: block;
-  width: 100%;
-  height: auto;
-}
-
 .card {
-  position: absolute;
-  bottom: 0;
   background: rgb(0, 0, 0);
   background: rgba(0, 0, 0, 0.6);
-  color: #f1f1f1;
-  width: 100%;
-  height: 100%;
-  transition: 0.5s ease;
-  opacity: 0;
-  font-size: 20px;
-  padding: 20px;
-  padding-top: 90px;
-  text-align: left;
-}
-
-.content_2 .card {
-  opacity: 1;
+  background-image: url(/images/Img1.png);
+  z-index: 2;
 }
 
 .card ul {
