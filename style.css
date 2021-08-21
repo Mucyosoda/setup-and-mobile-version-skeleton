@@ -182,11 +182,7 @@ li.boot {
 }
 
 .card {
-  background: rgb(0, 0, 0);
-  background: rgba(0, 0, 0, 0.6);
   background-image: url(/images/Img1.png);
-  z-index: 2;
-  padding-top: 0px;
 }
 
 .card ul {
@@ -493,19 +489,18 @@ footer {
   }
   .txt_image {
     background-color: #f55800;
+    width: 60%;
   }
 
-  .img1 {
-    padding: 0;
-    background-color: #fff;
-    width: 61%;
+  .txt_image img {
+    width: 100%;
   }
 
   .post1 {
-    width: 49%;
     padding-top: 27px;
     padding-left: 5px;
     margin-left: 0;
+    width: 40%;
   }
 
   .post1 p {
@@ -553,25 +548,46 @@ footer {
     grid-gap: 15px;
   }
 
-  .technology li {
-    display: inline-block;
-    list-style-type: none;
-    height: 40px;
-    width: 42px;
-    padding: 15px;
-    padding-left: 4px;
-    background-color: #969daa49;
-    font-size: 15px;
-    color: #fff;
+  #card_1 {
+    background-image: url(images/Img2.png);
+  }
+
+  #card_2 {
+    background-image: url(images/Img3.png);
+  }
+
+  #card_3 {
+    background-image: url(images/Img4.png);
+  }
+
+  #card_4 {
+    background-image: url(images/Img1.png);
+  }
+
+  #card_5 {
+    background-image: url(images/Img3.png);
+  }
+
+  #card_6 {
+    background-image: url(images/Img4.png);
+  }
+
+  .card {
+    padding: 100px 30px 30px 30px;
+  }
+
+  .card h1 {
+    font-size: 44px;
+    margin-bottom: 10px;
+  }
+
+  .card p {
+    font-size: 21px;
+    margin-bottom: 15px;
   }
 
   li.boot2 {
     width: 73px;
-  }
-
-  #one h1,
-  p {
-    display: none;
   }
 
   .line5 {
