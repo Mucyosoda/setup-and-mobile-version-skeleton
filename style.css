@@ -173,16 +173,16 @@ li.boot {
 .cards_room {
   margin-top: 50px;
   margin-bottom: 50px;
-  position: initial;
 }
 
 .card {
   background: rgb(0, 0, 0);
   background: rgba(0, 0, 0, 0.6);
   background-image: url(/images/Img1.png);
-  z-index: 2;
   padding-top: 70px;
   padding-left: 30px;
+  padding-bottom: 0;
+  margin-bottom: 5px;
 }
 
 .card ul {
@@ -218,9 +218,11 @@ li.boot {
   height: 40px;
   text-align: center;
   padding-top: 10px;
-  margin-right: 30px;
+  margin-bottom: 60px;
   color: #f1f1f1;
   font-size: 20px;
+  width: 400px;
+  padding-right: 30px;
 }
 
 #content_one {
