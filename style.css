@@ -152,9 +152,9 @@ main h2 {
 }
 
 #sidebar button {
-  background-color: orange;
+  background-color: rgba(255, 107, 0, 1);
   height: 45px;
-  width: 90px;
+  width: 100px;
   margin-left: 10px;
   color: #fff;
   font-family: Arial, Helvetica, sans-serif;
@@ -179,13 +179,17 @@ li.boot {
 }
 
 .card {
-  background-image: url(/images/Img1.png);
+  background-image: url(/images/Img5.png);
+  background-repeat: no-repeat;
+  height: 386px;
+  padding: 25% 5% 5% 5%;
+  margin-bottom: 50px;
 }
 
 .card ul {
   list-style-type: none;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 2px;
+  margin-bottom: 5px;
   padding-right: 20px;
 }
 
@@ -193,19 +197,19 @@ li.boot {
   display: inline-block;
   padding: 5px 5px 5px 5px;
   background-color: rgba(252, 252, 252, 0.247);
-  height: 40px;
+  height: 30px;
   color: rgba(255, 255, 255, 0.637);
 }
 
 .card p {
-  line-height: 30px;
+  line-height: 28px;
   color: #fff;
   font-size: 20px;
 }
 
 .card h1 {
-  font-size: 30px;
-  color: #f1f1f1;
+  font-size: 40px;
+  color: #fff;
   font-weight: 900;
 }
 
@@ -213,9 +217,26 @@ li.boot {
   background-color: #ff6b00;
   height: 40px;
   text-align: center;
-  padding-top: 10px;
+  margin-top: 62px;
+  margin-left: -15px;
+  margin-right: 0;
   color: #f1f1f1;
   font-size: 20px;
+  width: 314px;
+  border: none;
+}
+
+.cardyellow1 {
+  background-color: #ff6b00;
+  height: 40px;
+  text-align: center;
+  margin-top: 24px;
+  margin-left: -15px;
+  margin-right: 0;
+  color: #f1f1f1;
+  font-size: 20px;
+  width: 314px;
+  border: none;
 }
 
 #content_one {
@@ -368,6 +389,15 @@ footer {
   display: none;
 }
 
+#last_line {
+  height: 5px;
+  background-color: #0d151e;
+  width: 40%;
+  margin-top: 10px;
+  margin-left: 28%;
+  border-radius: 10px;
+}
+
 @media only screen and (min-width: 1000px) {
   .container {
     grid-gap: 0;
@@ -381,8 +411,9 @@ footer {
 
   main {
     background-image: url(images/header.png);
-    background-position: center right;
-    background-size: 31% 40%;
+    background-position: top right;
+    background-size: 41% 90%;
+    background-position-x: 115%;
     background-clip: content-box;
     height: 50vw;
     display: flex;
@@ -397,7 +428,7 @@ footer {
   .header {
     width: 90%;
     height: auto;
-    padding-top: 80px;
+    padding-top: 15%;
   }
 
   .fa-twitter:hover {
@@ -421,11 +452,12 @@ footer {
   }
 
   main ul {
-    padding-top: 130px;
+    padding-top: 250%;
     padding-bottom: 1px;
     margin-left: 0;
     padding-left: 0;
     padding-right: 40px;
+    height: 90%;
   }
 
   main li {
@@ -437,14 +469,16 @@ footer {
 
   main h1 {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 40px;
+    font-size: 50px;
     padding-bottom: 12px;
+    color: #f55800;
   }
 
   main p {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     padding-top: 12px;
+    line-height: 34px;
   }
 
   .menu ul {
@@ -485,8 +519,7 @@ footer {
   }
 
   .post1 {
-    padding-top: 27px;
-    padding-left: 5px;
+    padding: 27px 10px 10px 20px;
     margin-left: 0;
     width: 40%;
   }
@@ -504,23 +537,29 @@ footer {
   .post1 p {
     font-size: 21px;
     margin-bottom: 15px;
+    line-height: 28px;
   }
 
   .post1 li {
-    margin-right: 16px;
+    padding: 6px 0px 8px 10px;
     font-size: 20px;
-    height: 40px;
-    width: 55px;
+    height: 38px;
+    width: 60px;
+  }
+
+  .post1:hover li {
+    background-color: rgba(255, 107, 0, 1);
+    color: #fff;
   }
 
   li.boot {
-    width: 90px;
+    width: 100px;
   }
 
   .cards_room {
     display: grid;
     padding-top: 30px;
-    grid-template-columns: 1.7fr 1.7fr 1.6fr;
+    grid-template-columns: auto auto auto;
     grid-template-rows: 1fr 1fr;
     grid-template-areas:
       "card_1"
@@ -534,44 +573,141 @@ footer {
 
   #card_1 {
     background-image: url(images/Img2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    font-weight: 700;
+  }
+
+  #card_1:hover {
+    background-image: url(images/Img2.png);
   }
 
   #card_2 {
     background-image: url(images/Img3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    font-weight: 700;
+  }
+
+  #card_2:hover {
+    background-image: url(images/Img2.png);
   }
 
   #card_3 {
     background-image: url(images/Img4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    font-weight: 700;
+  }
+
+  #card_3:hover {
+    background-image: url(images/Img2.png);
   }
 
   #card_4 {
     background-image: url(images/Img1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    font-weight: 700;
+  }
+
+  #card_4:hover {
+    background-image: url(images/Img2.png);
   }
 
   #card_5 {
     background-image: url(images/Img3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    font-weight: 700;
+  }
+
+  #card_5:hover {
+    background-image: url(images/Img2.png);
   }
 
   #card_6 {
     background-image: url(images/Img4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    font-weight: 700;
+  }
+
+  #card_6:hover {
+    background-image: url(images/Img2.png);
   }
 
   .card {
-    padding: 100px 30px 30px 30px;
+    padding: 90px 0 0 0;
   }
 
   .card h1 {
-    font-size: 44px;
+    font-size: 40px;
     margin-bottom: 10px;
   }
 
   .card p {
     font-size: 21px;
     margin-bottom: 15px;
+    line-height: 24px;
+  }
+
+  .card:hover h1 {
+    color: transparent;
+  }
+
+  .card:hover p {
+    color: transparent;
+  }
+
+  .card:hover ul,
+  li {
+    display: none;
+  }
+
+  .button {
+    display: none;
+  }
+
+  .card:hover button {
+    display: block;
+  }
+
+  .card li {
+    margin-right: 10px;
+    width: 60px;
+    padding: 10px 10px 10px 10px;
+  }
+
+  .card li.boot {
+    width: 85px;
   }
 
   li.boot2 {
     width: 73px;
+  }
+
+  #card_1 button {
+    display: none;
+  }
+
+  .cardyellow1 {
+    background-color: #ff6b00;
+    height: 40px;
+    text-align: center;
+    margin-top: 9px;
+    margin-left: 0px;
+    margin-right: 0;
+    color: #f1f1f1;
+    font-size: 20px;
+    width: 100%;
+    border: none;
   }
 
   .line5 {
@@ -585,7 +721,7 @@ footer {
     display: flex;
     flex-direction: row;
     text-align: left;
-    margin-top: 80px;
+    margin-top: 8px;
     background-color: #262626;
     color: #fff;
   }
