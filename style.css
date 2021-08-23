@@ -170,7 +170,7 @@ li.boot {
 
 .cards_room {
   margin-top: 50px;
-  margin-bottom: 50px;
+  margin-bottom: 10px;
   position: initial;
 }
 
@@ -713,7 +713,6 @@ footer {
   }
 
   .cardyellow1 {
-    position: relative;
     background-color: #ff6b00;
     height: 40px;
     text-align: center;
