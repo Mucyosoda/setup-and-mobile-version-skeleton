@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-> Desktop version
+## Desktop version
 
 > This project is a responsive version website.
 
