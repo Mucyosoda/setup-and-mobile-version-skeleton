@@ -174,7 +174,7 @@ li.boot {
 .content {
   grid-area: content;
   padding: 8rem 1rem 1rem 1rem;
-  background-color: #1c1a19;
+  background-color: #262626;
   background-image: url(images/Frame.png);
   background-repeat: no-repeat;
   background-position: right bottom;
@@ -384,7 +384,6 @@ textarea {
   }
 
   main {
-    background-color: aqua;
     padding-left: 50px;
     display: grid;
     grid-template-columns: 600px 350px;
@@ -426,8 +425,128 @@ textarea {
     margin: 0;
     padding: 0;
   }
-}
 
+  .content {
+    padding-left: 7em;
+  }
+
+  .content_text h1 {
+    color: #f55800;
+    margin-top: 10px;
+    font-size: 40px;
+    margin-bottom: 20px;
+  }
+
+  .content_text p {
+    font-size: 20px;
+    color: #fff;
+    width: 40%;
+    line-height: 34px;
+  }
+
+  .content_list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1px 70px 1px 70px;
+    text-align: left;
+    margin-top: 8px;
+    background-color: #262626;
+    color: #fff;
+    margin-bottom: 30px;
+  }
+
+  .content_list h2 {
+    margin-bottom: 20px;
+  }
+
+  .content_list ul {
+    list-style-type: none;
+  }
+
+  .content_list li {
+    list-style-type: none;
+    font-size: 20px;
+    width: 243px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+  }
+
+  .btn_resume {
+    width: 8rem;
+    height: 2rem;
+    background-color: orangered;
+    color: #fff;
+    border: none;
+    margin-top: 10px;
+  }
+
+  .footer_form {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .form_view {
+    display: none;
+  }
+
+  .form_view1 {
+    display: inline-block;
+    width: 70%;
+  }
+
+  form input {
+    width: 250px;
+    padding-right: 10px;
+    margin-left: 10px;
+  }
+
+  textarea {
+    height: 100px;
+    width: 480px;
+    margin-top: 10px;
+    border: none;
+    background-color: #fbf8f7;
+    font-size: 16px;
+    padding-top: 1px;
+    padding-left: 2px;
+  }
+
+  .content_4 p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #262626;
+    font-weight: 900;
+    text-align: left;
+  }
+  form button {
+    height: 48px;
+    background-color: rgba(255, 107, 0, 1);
+    color: white;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    padding-top: 5px;
+    border: none;
+    margin-left: 0;
+    margin-top: 20px;
+    width: 150px;
+  }
+
+  .social-icons_last {
+    align-items: center;
+    text-align: center;
+    padding: 20px 20px 20px 20px;
+    border-top: 1px solid #505f7941;
+    margin-top: 50px;
+    height: 90px;
+  }
+
+  #last_line {
+    display: none;
+  }
+}
 /* 
 
 
@@ -679,53 +798,17 @@ textarea {
     padding-right: 50px;
   }
 
-  .bottom_link li {
-    list-style-type: none;
-    font-size: 20px;
-    width: 243px;
-    padding-bottom: 20px;
-  }
+  
 
-  .content_4 p {
-    font-family: Arial, Helvetica, sans-serif;
-    color: #262626;
-    font-weight: 900;
-    text-align: left;
-  }
+  
 
   .content_3 {
     margin-left: 70px;
   }
 
-  .content_3 h1 {
-    color: #f55800;
-    margin-top: 70px;
-    font-size: 40px;
-    margin-bottom: 20px;
-  }
+  
 
-  .content_3 p {
-    font-size: 20px;
-    color: #fff;
-    width: 40%;
-    line-height: 34px;
-  }
-
-  form button {
-    height: 48px;
-    background-color: rgba(255, 107, 0, 1);
-    color: white;
-    font-size: 17px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 24px;
-    letter-spacing: 0.03em;
-    padding-top: 5px;
-    border: none;
-    margin-left: 0;
-    margin-top: 20px;
-    width: 150px;
-  }
+  
 
   .card {
     padding: 90px 0 0 0;
@@ -819,17 +902,10 @@ textarea {
   }
 
   .bottom_link {
-    display: flex;
-    flex-direction: row;
-    text-align: left;
-    margin-top: 8px;
-    background-color: #262626;
-    color: #fff;
+    
   }
 
-  .bottom_link h2 {
-    margin-bottom: 20px;
-  }
+  
 
   #content_one {
     background-color: #262626;
@@ -862,34 +938,15 @@ textarea {
   }
 
   .form_view1 {
-    display: inline-block;
-    width: 70%;
+    display: 
   }
 
-  form input {
-    width: 250px;
-    padding-right: 10px;
-    margin-left: 10px;
-  }
-
-  textarea {
-    height: 100px;
-    width: 480px;
-    margin-top: 10px;
-    border: none;
-    background-color: #fbf8f7;
-    font-size: 16px;
-    padding-top: 1px;
-    padding-left: 2px;
-  }
-
+  
   footer {
     border-top: 2px solid rgba(189, 186, 186, 0.637);
     padding-top: 17px;
   }
 
-  #last_line {
-    display: none;
-  }
+  
 }
 */
