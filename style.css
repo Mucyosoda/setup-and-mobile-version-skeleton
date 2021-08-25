@@ -39,14 +39,9 @@ nav a {
   text-decoration: none;
 }
 
-.menu ul {
-  display: none;
-}
-
 header {
   grid-area: header;
   background-color: #1c1a19;
-
   color: #fff;
   background-image: url(images/f.png);
   background-repeat: no-repeat;
@@ -85,7 +80,6 @@ main {
 }
 
 main h1 {
-  margin-bottom: 50px;
   margin: 50px 20px 20px 20px;
   color: #091e42;
 }
@@ -134,6 +128,10 @@ main button {
   background-color: #f55800;
   color: #fff;
   border: none;
+}
+
+.menu ul {
+  display: none;
 }
 
 .card {
@@ -318,9 +316,9 @@ textarea {
   color: #505f79;
 }
 
- .form_view1 {
+.form_view1 {
   display: none;
-} 
+}
 
 #last_line {
   height: 5px;
@@ -375,9 +373,9 @@ textarea {
     padding-top: 15%;
   }
 
-   .humberger {
+  .humberger {
     display: none;
-  } 
+  }
 
   .menu ul {
     display: block;
@@ -423,7 +421,6 @@ textarea {
     grid-row-gap: 50px;
     grid-column-gap: 10px;
     margin: 0;
-    padding: 0;
   }
 
   .card {
@@ -548,6 +545,3 @@ textarea {
     height: 90px;
   }
 }
-  /* #last_line {
-    display: none;
-  } 
