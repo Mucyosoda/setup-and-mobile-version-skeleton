@@ -137,7 +137,7 @@ main button {
 }
 
 .card {
-  background-image: url(/images/Img5.png);
+  background-image: url(/images/Img2.png);
   background-repeat: no-repeat;
   background-size: cover;
   padding: 1rem 1rem 1rem 1rem;
@@ -184,12 +184,12 @@ li.boot {
   color: #fff;
 }
 
-.main_content h1 {
+.content h1 {
   color: #ff6b00;
   font-size: 4rem;
 }
 
-.main_content p {
+.content p {
   font-size: 18px;
   text-align: left;
   padding: 20px;
@@ -198,7 +198,7 @@ li.boot {
   font-family: "Times New Roman", Times, serif;
 }
 
-.main_content button {
+.content button {
   background-color: #ff6b00;
   color: #fff;
   border: none;
@@ -217,15 +217,15 @@ li.boot {
   margin-right: 10px;
 }
 
-.bottom_link {
+.content_list {
   padding-bottom: 50px;
 }
 
-.bottom_link h2 {
+.content_list h2 {
   margin-left: 25%;
 }
 
-.bottom_link ul {
+.content_list ul {
   align-content: center;
   padding-left: 50px;
   margin-bottom: 40px;
@@ -234,7 +234,7 @@ li.boot {
   list-style-type: none;
 }
 
-.bottom_link li {
+.content_list li {
   margin-top: 15px;
   font-size: 20px;
 }
@@ -424,6 +424,10 @@ textarea {
     grid-column-gap: 10px;
     margin: 0;
     padding: 0;
+  }
+
+  .card {
+    background-color: #f55800;
   }
 
   .content {
