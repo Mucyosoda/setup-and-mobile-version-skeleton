@@ -477,10 +477,19 @@ textarea {
     margin: 2rem 0 -0.8rem -0.7rem;
     height: 3rem;
     width: 18.4rem;
+    display: none;
   }
 
   .content {
-    padding-left: 7em;
+    padding-left: 3em;
+    grid-area: content;
+    background-color: #262626;
+    background-image: url(images/Frame.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: 30% 35%;
+    background-position-x: 100%;
+    background-position-y: 25%;
   }
 
   .content_text h1 {
@@ -501,7 +510,7 @@ textarea {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 1px 70px 1px 70px;
+    padding: 1px 50px 1px 50px;
     text-align: left;
     margin-top: 8px;
     background-color: #262626;
@@ -522,7 +531,7 @@ textarea {
     font-size: 20px;
     width: 243px;
     padding-bottom: 10px;
-    padding-left: 30px;
+    padding-left: 10px;
   }
 
   .btn_resume {
@@ -570,6 +579,7 @@ textarea {
     color: #262626;
     font-weight: 900;
     text-align: left;
+    padding: 5em 0 0 3em;
   }
 
   form button {
@@ -605,5 +615,31 @@ textarea {
 
   #last_line {
     display: none;
+  }
+
+  .card:hover {
+    background-image: url(images/Img2.png);
+  }
+
+  .card:hover h1 {
+    color: transparent;
+  }
+
+  .card:hover p {
+    color: transparent;
+  }
+
+  .card:hover ul {
+    display: none;
+  }
+
+  .card:hover button {
+    display: block;
+  }
+
+  .card button:hover {
+    background-color: #fff5e1;
+    color: #f55800;
+    border: 1px solid #f55800;
   }
 }
