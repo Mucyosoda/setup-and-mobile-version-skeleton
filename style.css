@@ -99,7 +99,7 @@ main p {
 
 main ul {
   padding-left: 2px;
-  margin-top: 30px;
+  margin-top: 10px;
 }
 
 main li {
@@ -134,6 +134,13 @@ main button {
   display: none;
 }
 
+.main_text button {
+  margin-top: 3px;
+  margin-left: 0;
+  height: 3rem;
+  width: 10rem;
+}
+
 .card {
   background-image: url(images/Img5.png);
   background-repeat: no-repeat;
@@ -151,7 +158,7 @@ main button {
 
 .card ul {
   list-style-type: none;
-  margin-top: 2px;
+  margin-top: 12px;
   margin-bottom: 5px;
   padding-right: 20px;
 }
@@ -167,6 +174,12 @@ main button {
 
 li.boot {
   width: 5pc;
+}
+
+.card button {
+  margin: 2rem 0 -0.8rem -0.8rem;
+  height: 3rem;
+  width: 19.9rem;
 }
 
 .content {
@@ -332,8 +345,8 @@ textarea {
 @media only screen and (min-width: 1000px) {
   .container {
     grid-gap: 0;
-    padding-left: 150px;
-    padding-right: 150px;
+    margin-left: 0;
+    margin-right: 0;
   }
 
   nav {
@@ -344,9 +357,9 @@ textarea {
     display: flex;
     flex-direction: row-reverse;
     background-image: url(images/header.png);
-    background-position: top right;
-    background-size: 41% 90%;
-    background-position-x: 115%;
+    background-position: top center;
+    background-size: 41% 70%;
+    background-position-x: 100%;
     background-clip: content-box;
     height: 50vw;
   }
@@ -354,23 +367,37 @@ textarea {
   #social-icons {
     margin-left: 0;
     width: 8%;
+    text-align: center;
   }
 
   header ul {
-    margin-top: 12rem;
+    margin-top: 18rem;
   }
 
   header li {
     display: list-item;
     list-style-type: none;
-    margin-bottom: 10px;
-    font-size: 1rem;
+    margin-bottom: 15px;
+    font-size: 1.4rem;
   }
 
   .header {
     width: 92%;
     height: auto;
     padding-top: 15%;
+  }
+
+  .header h1 {
+    font-size: 4em;
+  }
+
+  .header h2 {
+    font-size: 2em;
+  }
+
+  .header p {
+    font-size: 1.2em;
+    line-height: 28px;
   }
 
   .humberger {
@@ -393,28 +420,47 @@ textarea {
       "header_line"
       "main_image"
       "main_text";
+    justify-content: center;
   }
 
   .main_title {
     padding-top: 1px;
-    text-align: center;
+    text-align: left;
   }
 
   .header_line {
-    padding-top: 80px;
+    padding-top: 70px;
+    margin-left: 10rem;
+    margin-left: -20rem;
   }
 
   .main_image {
     padding-top: 1px;
   }
 
-  .main_text {
+  .main_text p {
     padding: 20px;
+  }
+
+  .main_text ul {
+    margin-top: 3px;
+    padding: 20px;
+  }
+
+  .main_text li {
+    background-color: #f4f1f0;
+  }
+
+  .main_text button {
+    margin-top: 3px;
+    margin-left: 20px;
+    height: 3rem;
+    width: 10rem;
   }
 
   .main_cards {
     width: 100%;
-    padding-left: 50px;
+    padding-left: 0;
     display: grid;
     grid-template-columns: 300px 300px 300px;
     grid-template-rows: minmax(50px, auto);
@@ -424,7 +470,13 @@ textarea {
   }
 
   .card {
-    background-color: #f55800;
+    background-color: #f1eeec;
+  }
+
+  .card button {
+    margin: 2rem 0 -0.8rem -0.7rem;
+    height: 3rem;
+    width: 18.4rem;
   }
 
   .content {
@@ -487,9 +539,9 @@ textarea {
     flex-direction: row;
   }
 
-  /* .form_view {
+  .form_view {
     display: none;
-  } */
+  }
 
   .form_view1 {
     display: inline-block;
@@ -543,5 +595,15 @@ textarea {
     border-top: 1px solid #505f7941;
     margin-top: 50px;
     height: 90px;
+  }
+
+  .main_text button:hover {
+    background-color: #fff5e1;
+    color: #f55800;
+    border: 1px solid #f55800;
+  }
+
+  #last_line {
+    display: none;
   }
 }
