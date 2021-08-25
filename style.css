@@ -318,9 +318,9 @@ textarea {
   color: #505f79;
 }
 
-.form_view1 {
+ .form_view1 {
   display: none;
-}
+} 
 
 #last_line {
   height: 5px;
@@ -375,9 +375,9 @@ textarea {
     padding-top: 15%;
   }
 
-  .humberger {
+   .humberger {
     display: none;
-  }
+  } 
 
   .menu ul {
     display: block;
@@ -490,9 +490,9 @@ textarea {
     flex-direction: row;
   }
 
-  .form_view {
+  /* .form_view {
     display: none;
-  }
+  } */
 
   .form_view1 {
     display: inline-block;
@@ -522,6 +522,7 @@ textarea {
     font-weight: 900;
     text-align: left;
   }
+
   form button {
     height: 48px;
     background-color: rgba(255, 107, 0, 1);
@@ -546,411 +547,7 @@ textarea {
     margin-top: 50px;
     height: 90px;
   }
-
-  #last_line {
-    display: none;
-  }
 }
-/* 
-
-
-
-
-#yellow button {
-  width: 160px;
-  height: 50px;
-  background-color: rgba(255, 107, 0, 1);
-  color: white;
-  font-size: 17px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 24px;
-  letter-spacing: 0.03em;
-  padding-top: 5px;
-  border: none;
-  margin-left: 0;
-  margin-top: 20px;
-}
-
-  .fa-twitter:hover {
-    transform: translate(10px);
-  }
-
-  .fa-linkedin:hover {
-    transform: translate(10px);
-  }
-
-  .fa-medium:hover {
-    transform: translate(10px);
-  }
-
-  .fa-github:hover {
-    transform: translate(10px);
-  }
-
-  .fa-angellist:hover {
-    transform: translate(10px);
-  }
-
-  main ul {
-    padding-top: 250%;
-    padding-bottom: 1px;
-    margin-left: 0;
-    padding-left: 0;
-    padding-right: 40px;
-    height: 90%;
-  }
-
-  main li {
-    display: list-item;
-    list-style-type: none;
-    padding-top: 15px;
-    font-size: 20px;
-  }
-
-  main h1 {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 50px;
-    padding-bottom: 12px;
-    color: #f55800;
-  }
-
-  main p {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-    padding-top: 12px;
-    line-height: 34px;
-  }
-
-  
-
-  .my_recent {
-    padding-top: 10px;
-    margin-top: 7px;
-    padding-right: 0;
-  }
-
-  .line1 {
-    height: 3px;
-    width: 60%;
-    padding-left: 0;
-  }
-
-  #content_title {
-    display: flex;
-    flex-direction: row;
-  }
-
-  #sidebar {
-    padding-bottom: 10px;
-    display: flex;
-    flex-direction: row;
-    justify-content: left;
-  }
-
-  .txt_image {
-    width: 60%;
-  }
-
-  .txt_image img {
-    width: 100%;
-  }
-
-  .post1 {
-    padding: 27px 10px 10px 20px;
-    margin-left: 0;
-    width: 40%;
-  }
-
-  #sidebar_new {
-    margin-top: 0;
-    padding: 0 30px 0 30px;
-  }
-
-  .post1 h1 {
-    font-size: 44px;
-    margin-bottom: 10px;
-  }
-
-  .post1 p {
-    font-size: 21px;
-    margin-bottom: 15px;
-    line-height: 28px;
-  }
-
-  .post1 li {
-    padding: 6px 0 8px 10px;
-    font-size: 20px;
-    height: 38px;
-    width: 60px;
-  }
-
-  li.boot {
-    width: 100px;
-  }
-
-  .cards_room {
-    display: grid;
-    padding-top: 30px;
-    grid-template-columns: auto auto auto;
-    grid-template-rows: 1fr 1fr;
-    grid-template-areas:
-      "card_1"
-      "card_2"
-      "card_3"
-      "card_4"
-      "card_5"
-      "card_6";
-    grid-gap: 15px;
-  }
-
-  #card_1 {
-    background-image: url(images/Img4.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: #fff;
-    font-weight: 700;
-  }
-
-  #card_1:hover {
-    background-image: url(images/Img2.png);
-  }
-
-  #card_2 {
-    background-image: url(images/Img3.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: #fff;
-    font-weight: 700;
-  }
-
-  #card_2:hover {
-    background-image: url(images/Img2.png);
-  }
-
-  #card_3 {
-    background-image: url(images/Img4.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: #fff;
-    font-weight: 700;
-  }
-
-  #card_3:hover {
-    background-image: url(images/Img2.png);
-  }
-
-  #card_4 {
-    background-image: url(images/Img1.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: #fff;
-    font-weight: 700;
-  }
-
-  #card_4:hover {
-    background-image: url(images/Img2.png);
-  }
-
-  #card_5 {
-    background-image: url(images/Img3.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: #fff;
-    font-weight: 700;
-  }
-
-  #card_5:hover {
-    background-image: url(images/Img2.png);
-  }
-
-  #card_6 {
-    background-image: url(images/Img4.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: #fff;
-    font-weight: 700;
-  }
-
-  #card_6:hover {
-    background-image: url(images/Img2.png);
-  }
-
-  .cardyellow {
-    position: relative;
-    background-color: #ff6b00;
-    height: 3.7ch;
-    text-align: center;
-    margin-top: 6.5rem;
-    margin-left: 1px;
-    margin-right: 5px;
-    font-size: 2rem;
-    width: 100%;
-    border: none;
-  }
-
-  .cardyellow button {
-    position: static;
-    height: 100%;
-    width: 100%;
-    font-size: 20px;
-    margin-top: 0.1ch;
-    background-color: #ff6b00;
-  }
-
-  .bottom_link ul {
-    padding-right: 50px;
-  }
-
-  
-
-  
-
-  .content_3 {
-    margin-left: 70px;
-  }
-
-  
-
-  
-
-  .card {
-    padding: 90px 0 0 0;
-    height: 58vh;
-  }
-
-  .card h1 {
-    font-size: 40px;
-    margin-bottom: 10px;
-    padding-left: 10px;
-  }
-
-  .card p {
-    font-size: 21px;
-    margin-bottom: 15px;
-    line-height: 24px;
-    padding-left: 10px;
-  }
-
-  .card ul {
-    padding-left: 10px;
-  }
-
-  .card:hover h1 {
-    color: transparent;
-  }
-
-  .card:hover p {
-    color: transparent;
-  }
-
-  .card:hover ul {
-    color: transparent;
-  }
-
-  .card li {
-    margin-right: 10px;
-    width: 60px;
-    padding: 10px 10px 11px 10px;
-  }
-
-  .card:hover li {
-    background-color: transparent;
-    color: transparent;
-  }
-
-  .card li.boot {
-    width: 85px;
-  }
-
-  .post1:hover li {
-    background-color: rgba(255, 107, 0, 1);
-    color: #fff;
-  }
-
-  li.boot2 {
-    width: 73px;
-  }
-
-  .cardyellow1 {
-    background-color: #ff6b00;
-    height: 40px;
-    text-align: center;
-    margin-top: 9px;
-    margin-left: 0;
-    margin-right: 0;
-    padding-bottom: 0;
-    color: #f1f1f1;
-    font-size: 20px;
-    width: 100%;
-    border: none;
-    display: none;
-  }
-
-  .card:hover button {
-    display: block;
-    cursor: pointer;
-  }
-
-   #card_1 button {
+  /* #last_line {
     display: none;
   } 
-
-  .middle_line {
-    background-color: #f8f8f8be;
-    border-radius: 2px;
-    width: 80%;
-    padding-right: 20px;
-    margin-left: 130px;
-    border: 1px solid #fff;
-  }
-
-  .bottom_link {
-    
-  }
-
-  
-
-  #content_one {
-    background-color: #262626;
-    background-image: url(images/Group.png);
-    background-repeat: no-repeat;
-    background-position: right top;
-    background-size: 40% 25%;
-    background-position-x: 105%;
-    background-position-y: 20%;
-  }
-
-  .footer_form {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    padding-left: 50px;
-    padding-right: 50px;
-    margin: 0;
-  }
-
-  .content_4 {
-    font-size: 30px;
-    width: 30%;
-    padding-top: 50px;
-    font-family: Arial, Helvetica, sans-serif;
-  }
-
-  .form_view {
-    display: none;
-  }
-
-  .form_view1 {
-    display: 
-  }
-
-  
-  footer {
-    border-top: 2px solid rgba(189, 186, 186, 0.637);
-    padding-top: 17px;
-  }
-
-  
-}
-*/
