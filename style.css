@@ -124,6 +124,29 @@ main li {
   font-weight: 100;
 }
 
+.card li {
+  display: inline-block;
+  padding: 5px 5px 5px 5px;
+  background-color: rgba(252, 252, 252, 0.247);
+  height: 30px;
+  color: rgba(255, 255, 255, 0.637);
+  width: 4pc;
+}
+
+.content_list li {
+  margin-top: 15px;
+  font-size: 20px;
+}
+
+.social-icons_last li {
+  list-style: none;
+  display: inline;
+  height: 2ch;
+  font-size: 20px;
+  padding-right: 5px;
+  padding-top: 15px;
+}
+
 #social-icons li {
   display: inline-block;
   margin: 3px;
@@ -201,15 +224,6 @@ main button {
   padding-right: 20px;
 }
 
-.card li {
-  display: inline-block;
-  padding: 5px 5px 5px 5px;
-  background-color: rgba(252, 252, 252, 0.247);
-  height: 30px;
-  color: rgba(255, 255, 255, 0.637);
-  width: 4pc;
-}
-
 li.boot {
   width: 5pc;
 }
@@ -284,11 +298,6 @@ li.boot {
   list-style-type: none;
 }
 
-.content_list li {
-  margin-top: 15px;
-  font-size: 20px;
-}
-
 footer {
   grid-area: footer;
 }
@@ -353,15 +362,6 @@ textarea {
 .social-icons_last ul {
   padding-top: 10px;
   padding-left: 10px;
-}
-
-.social-icons_last li {
-  list-style: none;
-  display: inline;
-  height: 2ch;
-  font-size: 20px;
-  padding-right: 5px;
-  padding-top: 15px;
 }
 
 .form_view1 {
@@ -471,8 +471,33 @@ textarea {
     flex-direction: row-reverse;
   }
 
+  .content_list ul {
+    list-style-type: none;
+  }
+
+  .main_text ul {
+    margin-top: 3px;
+    padding: 20px;
+  }
+
+  .card:hover ul {
+    display: none;
+  }
+
   #social-icons ul {
     margin-top: 18rem;
+  }
+
+  .main_text li {
+    background-color: #f4f1f0;
+  }
+
+  .content_list li {
+    list-style-type: none;
+    font-size: 20px;
+    width: 243px;
+    padding-bottom: 10px;
+    padding-left: 10px;
   }
 
   #social-icons li {
@@ -535,15 +560,6 @@ textarea {
     padding: 20px;
   }
 
-  .main_text ul {
-    margin-top: 3px;
-    padding: 20px;
-  }
-
-  .main_text li {
-    background-color: #f4f1f0;
-  }
-
   .main_cards {
     width: 100%;
     padding-left: 0;
@@ -600,18 +616,6 @@ textarea {
 
   .content_list h2 {
     margin-bottom: 20px;
-  }
-
-  .content_list ul {
-    list-style-type: none;
-  }
-
-  .content_list li {
-    list-style-type: none;
-    font-size: 20px;
-    width: 243px;
-    padding-bottom: 10px;
-    padding-left: 10px;
   }
 
   .btn_resume {
@@ -722,10 +726,6 @@ textarea {
 
   .card:hover p {
     color: transparent;
-  }
-
-  .card:hover ul {
-    display: none;
   }
 
   .card:hover button {
