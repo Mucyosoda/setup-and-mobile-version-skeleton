@@ -367,11 +367,23 @@ textarea {
   border-radius: 10px;
 }
 
+.nav-bar {
+  display: none;
+}
+
+.nav-bar.d-block {
+  display: block;
+}
+
 @media only screen and (min-width: 1024px) {
   .container {
     grid-gap: 0;
     margin-left: 0;
     margin-right: 0;
+  }
+
+  .nav-bar {
+    display: block;
   }
 
   .close-icon {

@@ -6,12 +6,12 @@ const closeIcon = document.getElementById("close-icon");
 menuBtn.addEventListener("click", () => {
   menuBtn.classList.add("d-none");
   closeIcon.classList.toggle("d-none");
-  navWrap.classList.remove("d-none");
+  navWrap.classList.add("d-block");
   navWrap.classList.add("open");
 });
 
 closeIcon.addEventListener("click", () => {
-  navWrap.classList.add("d-none");
+  navWrap.classList.remove("d-block");
   menuBtn.classList.remove("d-none");
   closeIcon.classList.toggle("d-none");
 });
