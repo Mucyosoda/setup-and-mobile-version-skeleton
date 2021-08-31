@@ -1,42 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <meta charset="UTF-8" />
     <script
       async
       src="https://www.googletagmanager.com/gtag/js?id=G-M14CZMQLN2"
     ></script>
-    <meta charset="UTF-8" />
+
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+      href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+      integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
+      crossorigin="anonymous"
     />
     <link rel="stylesheet" href="style.css" />
     <title>My Profile</title>
+    <script src="./script.js" defer></script>
   </head>
   <body>
     <div class="container">
-      <nav>
-        <div class="logo">LOGO</div>
+      <header id="header">
+        <div class="logo">
+          <h3>Mc</h3>
+        </div>
+        <nav id="nav-bar" class="nav-bar d-none">
+          <div id="close-icon" class="close-icon d-none">
+            <i class="fas fa-times-circle"></i>
+          </div>
+          <div class="nav-wrap">
+            <a class="nav-link" href="#banner">Home</a>
+            <a class="nav-link" href="#about">About Us</a>
+            <a class="nav-link" href="#services">Services</a>
+            <a class="nav-link" href="#contact">Prices</a>
+            <a class="nav-link" href="#contact">Message</a>
+          </div>
+        </nav>
+
         <div class="menu">
-          <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#news">News</a></li>
-            <li><a href="#contact">Contact</a></li>
-            <li>
-              <a href="#about">
-                <i class="fas fa-envelope"></i>
-              </a>
-            </li>
-          </ul>
+          <i class="fas fa-bars"></i>
         </div>
-        <div class="humberger">
-          <i class="fa fa-bars"></i>
-        </div>
-      </nav>
-      <header>
-        <div class="header">
+      </header>
+      <div class="banner">
+        <div class="banner-top">
           <h1>Hey There.<br />I'm Mucyo</h1>
           <h2>I'am a Software Developer</h2>
 
@@ -66,13 +73,14 @@
             </li>
           </ul>
         </div>
-      </header>
+      </div>
       <main>
-        <div class="main_title">
+        <div class="main_title" id="news">
           <h1>My Recent Works</h1>
         </div>
         <div class="header_line">
-        <hr class="first_line" /></div>
+          <hr class="first_line" />
+        </div>
         <div class="main_image">
           <img src="images/Img.png" alt="image" class="middle-image" />
         </div>
@@ -91,7 +99,6 @@
           </ul>
           <button type="submit">See Project</button>
         </div>
-    
 
         <div class="main_cards" id="maincard">
           <div class="card" id="card_1">
@@ -105,8 +112,8 @@
               <li class="boot"><a href="#"></a>bootstrap</li>
               <li><a href="#"></a>Ruby</li>
             </ul>
-              <button type="submit" class="cardyellow">See project</button>
-            </div>
+            <button type="submit" class="cardyellow">See project</button>
+          </div>
           <div class="card" id="card_2">
             <h1>Profesonal Art <br />Printing Data</h1>
             <p>
@@ -179,7 +186,7 @@
         </div>
       </main>
 
-      <div class="content">
+      <div class="content" id="about">
         <div class="content_text">
           <h1>About me</h1>
           <p>
@@ -190,143 +197,141 @@
           </p>
           <button type="submit" class="btn_resume">Get my Resume</button>
         </div>
-      
-      <hr class="middle_line" />
 
-      <div class="content_list">
-        <div class="add_list">
-          <h2>
-            <img src="images/Rectangle55.png" alt="" class="image55" />
-            Language
-          </h2>
-          <ul class="list">
-            <li>Javascript</li>
-            <li>Ruby</li>
-            <li>Html</li>
-            <li>Css</li>
-          </ul>
-        </div>
-        <div>
-          <h2>
-            <img src="images/Rectangle56.png" alt="" class="image55" />
-            Frameworks
-          </h2>
-          <ul class="list">
-            <li>Bootstrap</li>
-            <li>Ruby on Rails</li>
-            <li>RSPec</li>
-            <li>CapyBara</li>
-            <li>Selenium</li>
-          </ul>
-        </div>
-        <div>
-          <h2>
-            <img src="images/Rectangle57.png" alt="" class="image55" />
-            Skills
-          </h2>
-          <ul class="list">
-            <li>Codekit</li>
-            <li>Github</li>
-            <li>Codepen</li>
-            <li>Gitlab</li>
-            <li>Terminal</li>
-          </ul>
+        <hr class="middle_line" />
+
+        <div class="content_list">
+          <div class="add_list">
+            <h2>
+              <img src="images/Rectangle55.png" alt="" class="image55" />
+              Language
+            </h2>
+            <ul class="list">
+              <li>Javascript</li>
+              <li>Ruby</li>
+              <li>Html</li>
+              <li>Css</li>
+            </ul>
+          </div>
+          <div>
+            <h2>
+              <img src="images/Rectangle56.png" alt="" class="image55" />
+              Frameworks
+            </h2>
+            <ul class="list">
+              <li>Bootstrap</li>
+              <li>Ruby on Rails</li>
+              <li>RSPec</li>
+              <li>CapyBara</li>
+              <li>Selenium</li>
+            </ul>
+          </div>
+          <div>
+            <h2>
+              <img src="images/Rectangle57.png" alt="" class="image55" />
+              Skills
+            </h2>
+            <ul class="list">
+              <li>Codekit</li>
+              <li>Github</li>
+              <li>Codepen</li>
+              <li>Gitlab</li>
+              <li>Terminal</li>
+            </ul>
+          </div>
         </div>
       </div>
+
+      <div class="footer_form" id="contact">
+        <div class="content_4">
+          <p>
+            I'm always interested in <br />
+            hearing about new projects, <br />so if you'd like to<br />
+            chat please get in.
+          </p>
+        </div>
+        <div class="form_view">
+          <form
+            id="fs-frm"
+            name="simple-contact-form"
+            action="https://formspree.io/f/meqvpzbq"
+            method="POST"
+          >
+            <input
+              type="text"
+              name="name"
+              id="full-name"
+              placeholder="Full name"
+              required
+              maxlength="30"
+            />
+            <input
+              type="email"
+              name="_replyto"
+              id="email-addres"
+              placeholder="Email address"
+              required
+            />
+            <textarea
+              rows="5"
+              name="message"
+              id="message"
+              required
+              maxlength="150"
+            >
+   
+     Enter text here</textarea
+            >
+            <input type="submit" value="Get in touch" />
+          </form>
+        </div>
+        <div class="form_view1">
+          <form action="https://formspree.io/f/mzbykjor" method="POST">
+            <input
+              type="text"
+              name="first_name"
+              placeholder="First name"
+              maxlength="30"
+              required
+            />
+            <input
+              type="text"
+              name="last_name"
+              placeholder="last name"
+              maxlength="30"
+              required
+            />
+            <br />
+            <input type="email" name="_replyto" placeholder="Email" />
+            <br />
+            <textarea name="message" maxlength="500" required>
+  Hello Mucyo! Glad to see you</textarea
+            >
+            <br />
+            <button type="submit">Get in touch</button>
+          </form>
+        </div>
       </div>
 
       <footer>
-        <div class="footer_form">
-          <div class="content_4">
-            <p>
-              I'm always interested in <br />
-              hearing about new projects, <br />so if you'd like to<br />
-              chat please get in.
-            </p>
-          </div>
-          <div class="form_view">
-            <form
-              id="fs-frm"
-              name="simple-contact-form"
-              action="https://formspree.io/f/meqvpzbq"
-              method="POST"
-            >
-              <input
-                type="text"
-                name="name"
-                id="full-name"
-                placeholder="Full name"
-                required
-                maxlength="30"
-              />
-              <input
-                type="email"
-                name="_replyto"
-                id="email-addres"
-                placeholder="Email address"
-                required
-              />
-              <textarea
-                rows="5"
-                name="message"
-                id="message"
-                required
-                maxlength="150"
-              >
-   
-     Enter text here</textarea
-              >
-              <input type="submit" value="Get in touch" />
-            </form>
-
-          </div>
-          <div class="form_view1">
-            <form action="https://formspree.io/f/mzbykjor" method="POST">
-              <input
-                type="text"
-                name="first_name"
-                placeholder="First name"
-                maxlength="30"
-                required
-              />
-              <input
-                type="text"
-                name="last_name"
-                placeholder="last name"
-                maxlength="30"
-                required
-              />
-              <br />
-              <input type="email" name="_replyto" placeholder="Email" />
-              <br />
-              <textarea name="message" maxlength="500" required>
-  Hello Mucyo! Glad to see you</textarea
-              >
-              <br />
-              <button type="submit">Get in touch</button>
-            </form></div>
-          </div>
-        </div>
-  
-        <footer>
-          <ul class="social-icons_last">
-            <li class="fa-size">
-              <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-            </li>
-            <li class="fa-size">
-              <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-            </li>
-            <li class="fa-size">
-              <a href="#"><i class="fa fa-medium" aria-hidden="true"></i></a>
-            </li>
-            <li class="fa-size">
-              <a href="#"><i class="fa fa-github" aria-hidden="true"></i></a>
-            </li>
-            <li class="fa-size">
-              <a href="#"><i class="fa fa-angellist" aria-hidden="true"></i></a>
-            </li>
-          </ul>
-          <hr id="last_line" />
+        <ul class="social-icons_last">
+          <li class="fa-size">
+            <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+          </li>
+          <li class="fa-size">
+            <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+          </li>
+          <li class="fa-size">
+            <a href="#"><i class="fa fa-medium" aria-hidden="true"></i></a>
+          </li>
+          <li class="fa-size">
+            <a href="#"><i class="fa fa-github" aria-hidden="true"></i></a>
+          </li>
+          <li class="fa-size">
+            <a href="#"><i class="fa fa-angellist" aria-hidden="true"></i></a>
+          </li>
+        </ul>
+        <hr id="last_line" />
       </footer>
     </div>
   </body>

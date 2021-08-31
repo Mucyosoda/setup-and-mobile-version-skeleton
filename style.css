@@ -15,31 +15,58 @@
     "footer";
 }
 
-nav {
-  grid-area: nav;
+.d-none {
+  display: none;
+}
+
+#header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding: 15px 60px 5px 60px;
+  height: 24vh;
+  background-color: black;
+}
+
+#header .menu {
+  font-size: 30px;
   color: #fff;
-  background-color: #3e3c3c;
+  cursor: pointer;
+}
+#header nav {
+  position: relative;
 }
 
-nav ul {
-  list-style-type: none;
+#header .nav-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 15rem;
+  background-color: black;
 }
 
-nav li {
-  display: inline;
-  padding: 10px;
-}
-
-nav a {
-  color: #fff;
+#header .nav-wrap a {
   text-decoration: none;
+  font-size: 20px;
+  color: #fff;
+  position: relative;
 }
 
-header {
+#close-icon {
+  color: #dbd8d7;
+  font-size: 30px;
+  text-align: right;
+}
+
+.logo {
+  color: #fff;
+}
+
+.banner {
   grid-area: header;
   background-color: #1c1a19;
   color: #fff;
@@ -50,26 +77,26 @@ header {
   padding-bottom: 60px;
 }
 
-.header {
+.banner-top {
   padding: 90px 2px 5px 20px;
   margin-bottom: 20px;
 }
 
-header a {
+.banner a {
   color: #fff;
 }
 
-header li {
+.banner li {
   display: inline;
   margin-left: 30px;
 }
 
-header h2 {
+.banner h2 {
   padding-bottom: 12px;
   padding-top: 12px;
 }
 
-header h1 {
+.banner h1 {
   font-family: Arial, Helvetica, sans-serif;
   color: #f55800;
 }
@@ -130,10 +157,6 @@ main button {
   border: none;
 }
 
-.menu ul {
-  display: none;
-}
-
 .main_text button {
   margin-top: 3px;
   margin-left: 0;
@@ -145,7 +168,8 @@ main button {
   background-image: url(images/Img5.png);
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 1rem 1rem 1rem 1rem;
+  padding: 0;
+  margin-bottom: 3rem;
 }
 
 .card h1 {
@@ -177,9 +201,10 @@ li.boot {
 }
 
 .card button {
-  margin: 2rem 0 -0.8rem -0.8rem;
+  margin: 0;
   height: 3rem;
-  width: 19.9rem;
+  width: 100%;
+  margin-top: 2rem;
 }
 
 .content {
@@ -342,70 +367,107 @@ textarea {
   border-radius: 10px;
 }
 
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 1024px) {
   .container {
     grid-gap: 0;
     margin-left: 0;
     margin-right: 0;
   }
 
-  nav {
-    height: 70px;
+  .close-icon {
+    display: none;
   }
 
-  header {
+  #header {
+    width: 100%;
+    height: 20vh;
+    left: 0;
+    right: 0;
+    -webkit-box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.5);
+    background-color: black;
+    color: #fff;
+    z-index: 100;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: row-reverse;
-    background-image: url(images/header.png);
-    background-position: top center;
-    background-size: 41% 70%;
-    background-position-x: 100%;
-    background-clip: content-box;
-    height: 50vw;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 5px 33px;
   }
 
-  #social-icons {
-    margin-left: 0;
-    width: 8%;
-    text-align: center;
+  #header .menu {
+    display: none;
   }
 
-  header ul {
+  #header .nav-wrap {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background-color: none;
+    width: 100%;
+  }
+
+  #header .nav-wrap a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+    position: relative;
+  }
+
+  #header .nav-wrap a::after {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0;
+    width: 0%;
+    height: 2px;
+    background-color: #585858;
+  }
+
+  #header .nav-wrap a:hover::after {
+    width: 100%;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+
+  .banner ul {
     margin-top: 18rem;
   }
 
-  header li {
+  .banner li {
     display: list-item;
     list-style-type: none;
     margin-bottom: 15px;
     font-size: 1.4rem;
   }
 
-  .header {
+  .banner-top {
     width: 92%;
     height: auto;
     padding-top: 15%;
   }
 
-  .header h1 {
+  .banner-top h1 {
     font-size: 4em;
   }
 
-  .header h2 {
+  .banner-top h2 {
     font-size: 2em;
   }
 
-  .header p {
+  .banner-top p {
     font-size: 1.2em;
     line-height: 28px;
-  }
-
-  .humberger {
-    display: none;
-  }
-
-  .menu ul {
-    display: block;
   }
 
   main {
@@ -471,12 +533,14 @@ textarea {
 
   .card {
     background-color: #f1eeec;
+    height: 60vh;
   }
 
   .card button {
-    margin: 2rem 0 -0.8rem -0.7rem;
+    position: static;
+    margin: 2.7rem 0 -0.8rem 0;
     height: 3rem;
-    width: 18.4rem;
+    width: 100%;
     display: none;
   }
 
@@ -635,6 +699,7 @@ textarea {
 
   .card:hover button {
     display: block;
+    margin: 5.7rem 0 -0.8rem 0;
   }
 
   .card button:hover {
