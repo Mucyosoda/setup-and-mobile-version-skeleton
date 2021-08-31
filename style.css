@@ -47,7 +47,8 @@
   -ms-flex-align: center;
   align-items: center;
   width: 15rem;
-  background-color: black;
+  background-color: #131212;
+  margin-right: 0.1px;
 }
 
 .banner a {
@@ -57,6 +58,11 @@
 main h1 {
   margin: 50px 20px 20px 20px;
   color: #091e42;
+}
+
+#social-icons {
+  width: 100%;
+  padding-left: 60px;
 }
 
 .social-icons_last a {
@@ -82,18 +88,21 @@ main h1 {
 
 .banner {
   grid-area: header;
-  background-color: #1c1a19;
   color: #fff;
+  background-color: #1c1a19;
   background-image: url(images/f.png);
   background-repeat: no-repeat;
   background-size: 29% 39%;
   background-position: right bottom;
   padding-bottom: 60px;
+  display: flex;
+  flex-direction: column;
 }
 
 .banner-top {
   padding: 90px 2px 5px 20px;
   margin-bottom: 20px;
+  width: 100%;
 }
 
 main ul {
@@ -115,9 +124,9 @@ main li {
   font-weight: 100;
 }
 
-.banner li {
-  display: inline;
-  margin-left: 30px;
+#social-icons li {
+  display: inline-block;
+  margin: 3px;
 }
 
 .banner h2 {
@@ -436,7 +445,6 @@ textarea {
     left: 0;
     width: 0%;
     height: 2px;
-    background-color: #585858;
   }
 
   #header .nav-wrap a:hover::after {
@@ -445,11 +453,29 @@ textarea {
     transition: 0.3s;
   }
 
-  .banner ul {
+  #social-icons {
+    width: 10%;
+    padding-left: 60px;
+    height: 100vh;
+  }
+
+  .banner {
+    grid-area: header;
+    color: #fff;
+    background-image: url(images/f.png);
+    background-repeat: no-repeat;
+    background-size: 29% 39%;
+    background-position: right bottom;
+    padding-bottom: 60px;
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  #social-icons ul {
     margin-top: 18rem;
   }
 
-  .banner li {
+  #social-icons li {
     display: list-item;
     list-style-type: none;
     margin-bottom: 15px;
