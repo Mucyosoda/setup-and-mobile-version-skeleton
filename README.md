@@ -2,7 +2,7 @@
 
 > Desktop version and Mobile version
 
-> This project is a responsive version website.
+> This project is a responsive version website with js features.
 
 Additional description about the project and its features.
 
