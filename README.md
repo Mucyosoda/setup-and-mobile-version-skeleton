@@ -2,7 +2,7 @@
 
 > Desktop version
 
-> This project is a responsive version website.
+> This project is a responsive version website with javascript features
 
 Additional description about the project and its features.
 
@@ -10,10 +10,7 @@ Additional description about the project and its features.
 
 - CSS
 - HTML
-
-## Live Demo
-
-[link to my profile](https://mucyosoda.github.io/setup-and-mobile-version-skeleton/)
+- Javascript
 
 ## Getting Started
 
