@@ -623,6 +623,7 @@ textarea {
     text-align: center;
     color: #3c3a39;
     border: 1px solid #3c3a39;
+    margin-right: 10px;
   }
 
   #social-icons li {

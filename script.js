@@ -23,14 +23,14 @@ closeIcon.addEventListener('click', () => {
   closeIcon.classList.toggle('d-none');
 });
 
-for (let i = 0; i < seeProjectBtn.length; i+=1) 
+for (let i = 0; i < seeProjectBtn.length; i += 1) {
   seeProjectBtn[i].addEventListener('click', () => {
     displayMsg.classList.remove('d-none');
     overlayBackground.classList.remove('d-none');
     document.body.scrollTop = 0;
     document.documentElement.scrollTop = 0;
   });
-
+}
 closepop.addEventListener('click', closeFunction);
 
 /* Add Scroolspy */
