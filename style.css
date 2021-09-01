@@ -386,6 +386,11 @@ textarea {
 }
 
 @media only screen and (min-width: 1024px) {
+
+  html {
+    scroll-behavior: smooth;
+  }
+
   .container {
     grid-gap: 0;
     margin-left: 0;
@@ -692,12 +697,11 @@ textarea {
   }
 
   .card button {
-    position: static;
-    margin: 2.7rem 0 -0.8rem 0;
+    margin: 0 0 -0.8rem 0;
     height: 3rem;
     width: 100%;
     display: none;
-  }
+  } 
 
   .social-icons_last {
     align-items: center;
@@ -730,14 +734,94 @@ textarea {
     color: transparent;
   }
 
-  .card:hover button {
+   .card:hover button {
     display: block;
-    margin: 5.7rem 0 -0.8rem 0;
-  }
+    margin: 0 0 0 0;
+  } 
 
-  .card button:hover {
+  /* .card button:hover {
     background-color: #fff5e1;
     color: #f55800;
     border: 1px solid #f55800;
+  } */
+
+  .pop-msg-1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 70%;
+    background-color: white;
+    padding: 1rem 5rem 5rem 5rem;
+    margin-top: 10rem;
+    border-radius: 5px;
+    box-shadow: 0 3rem 5rem rgba(0, 0, 3, 0.3);
+    z-index: 10;
   }
+
+  .pop-msg-1 img {
+    float: left;
+    width:470px;
+    height:370px;
+    margin-left:15px;
+    margin-right:15px;
+  }
+
+  .closeX {
+    position: absolute;
+    top: 1.2rem;
+    right: 2rem;
+    font-size: 3rem;
+    color: rgba(179, 170, 170, 0.582);
+    cursor: pointer;
+    border: none;
+    background: none;
+  }
+
+  .closeX:hover{
+    color: #0c0c0cb0;
+    background-color: #f029296e;
+    border-radius: 100%;
+    width: 60px;
+    height: 60px;
+  }
+
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 800vh;
+    background-color: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(3px);
+    z-index: 5;
+  }
+
+
+  .see-btn{
+    width: 230px;
+    background-color: #f55800;
+    color: #fff;
+    font-size: 18px;
+    border: 1px solid #f55800;
+    outline: none;
+    padding: 8px 0px;
+    cursor: pointer;
+  }
+  
+   .see-btn:hover{
+        transition: .3s;
+        color: #f55800;
+        background-color: #fff;
+    }
+
+    .pop-msg-1 ul {
+      margin: 1rem 1rem 2rem 1rem;
+      
+    }
+  
+    .pop-msg-1 li {
+      width: 7rem;
+      text-align: center;
+    }
 }
