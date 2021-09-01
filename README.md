@@ -2,7 +2,9 @@
 
 > Desktop version
 
-> This project is a responsive version website.
+> This project is my profile website responsive version and created in html css and javascript. it is still ongoing project.
+
+![screenshot](./capture7.PNG)
 
 Additional description about the project and its features.
 
@@ -10,6 +12,7 @@ Additional description about the project and its features.
 
 - CSS
 - HTML
+- Javascript
 
 ## Live Demo
 
