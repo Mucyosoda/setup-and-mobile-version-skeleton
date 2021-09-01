@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-> Desktop version
+> Desktop version and Mobile version
 
 > This project is a responsive version website.
 
@@ -10,10 +10,7 @@ Additional description about the project and its features.
 
 - CSS
 - HTML
-
-## Live Demo
-
-[link to my profile](https://mucyosoda.github.io/setup-and-mobile-version-skeleton/)
+- javascript
 
 ## Getting Started
 
