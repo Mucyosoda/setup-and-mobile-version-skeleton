@@ -487,10 +487,6 @@ textarea {
     padding: 20px;
   }
 
-  .card:hover ul {
-    display: none;
-  }
-
   #social-icons ul {
     margin-top: 18rem;
   }
@@ -581,6 +577,10 @@ textarea {
   .card {
     background-color: #f1eeec;
     height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
   }
 
   .content {
@@ -700,7 +700,6 @@ textarea {
     margin: 0 0 -0.8rem 0;
     height: 3rem;
     width: 100%;
-    display: none;
   } 
 
   .social-icons_last {
@@ -722,29 +721,6 @@ textarea {
     display: none;
   }
 
-  .card:hover {
-    background-image: url(images/Img2.png);
-  }
-
-  .card:hover h1 {
-    color: transparent;
-  }
-
-  .card:hover p {
-    color: transparent;
-  }
-
-   .card:hover button {
-    display: block;
-    margin: 0 0 0 0;
-  } 
-
-  /* .card button:hover {
-    background-color: #fff5e1;
-    color: #f55800;
-    border: 1px solid #f55800;
-  } */
-
   .pop-msg-1 {
     position: absolute;
     top: 50%;
@@ -761,10 +737,33 @@ textarea {
 
   .pop-msg-1 img {
     float: left;
-    width:470px;
+    width:440px;
     height:370px;
     margin-left:15px;
     margin-right:15px;
+  }
+  
+  .btn {
+    padding: 5px;
+    background-color: #f55800;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 700;
+    display: inline-flex;
+    justify-content: space-between;
+    margin-right: 20px;
+    margin-top: 40px;
+  }
+
+  .btn i.fa.fa-github {
+    margin-left: 6px;
+    font-size: 20px;
+    cursor: pointer;
+  }
+
+  .btn img {
+    width: 21px;
+    height: 21px;
   }
 
   .closeX {
