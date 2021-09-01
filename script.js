@@ -1,6 +1,14 @@
 const menuBtn = document.querySelector('.menu');
 const navWrap = document.querySelector('.nav-bar');
 const closeIcon = document.getElementById('close-icon');
+const seeProjectBtn = document.querySelectorAll('.see-btn');
+const displayMsg = document.querySelector('.pop-msg-1');
+const overlayBackground = document.querySelector('.overlay');
+const closepop = document.querySelector('.closeX');
+const closeFunction = function () {
+  displayMsg.classList.add('d-none');
+  overlayBackground.classList.add('d-none');
+};
 
 menuBtn.addEventListener('click', () => {
   menuBtn.classList.add('d-none');
@@ -14,6 +22,16 @@ closeIcon.addEventListener('click', () => {
   menuBtn.classList.remove('d-none');
   closeIcon.classList.toggle('d-none');
 });
+
+for (let i = 0; i < seeProjectBtn.length; i += 1) {
+  seeProjectBtn[i].addEventListener('click', () => {
+    displayMsg.classList.remove('d-none');
+    overlayBackground.classList.remove('d-none');
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  });
+}
+closepop.addEventListener('click', closeFunction);
 
 /* Add Scroolspy */
 const portfolioLink = document.getElementById('portfolio-link');
@@ -31,7 +49,7 @@ portfolioLink.addEventListener('click', () => {
   menuBtn.classList.remove('d-none');
   closeIcon.classList.add('d-none');
   window.scrollTo(0, header.clientHeight
-     + headlineSection.clientHeight);
+  + headlineSection.clientHeight);
 });
 
 aboutLink.addEventListener('click', () => {
