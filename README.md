@@ -2,7 +2,9 @@
 
 > Desktop version
 
-> This project is a responsive version website with javascript features
+> This project is my profile website responsive version and created in html css and javascript. it is still ongoing project.
+
+![screenshot](./capture7.PNG)
 
 Additional description about the project and its features.
 
@@ -11,6 +13,10 @@ Additional description about the project and its features.
 - CSS
 - HTML
 - Javascript
+
+## Live Demo
+
+[link to my profile](https://mucyosoda.github.io/setup-and-mobile-version-skeleton/)
 
 ## Getting Started
 
