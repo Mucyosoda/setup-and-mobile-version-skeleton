@@ -31,7 +31,6 @@ for (let i = 0; i < seeProjectBtn.length; i+=1)
     document.documentElement.scrollTop = 0;
   });
 
-
 closepop.addEventListener('click', closeFunction);
 
 /* Add Scroolspy */
