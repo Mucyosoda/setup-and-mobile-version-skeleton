@@ -771,7 +771,7 @@ textarea {
     position: absolute;
     top: 1.2rem;
     right: 2rem;
-    font-size: 3rem;
+    font-size: 26px;
     color: rgba(179, 170, 170, 0.582);
     cursor: pointer;
     border: none;
@@ -781,9 +781,10 @@ textarea {
   .closeX:hover{
     color: #0c0c0cb0;
     background-color: #f029296e;
+    font-size:14px ;
     border-radius: 100%;
-    width: 60px;
-    height: 60px;
+    width: 30px;
+    height: 30px;
   }
 
   .overlay {
