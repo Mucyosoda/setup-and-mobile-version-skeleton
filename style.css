@@ -74,7 +74,6 @@ main h1 {
 
 #header .nav-wrap a {
   text-decoration: none;
-  font-size: 20px;
   color: #fff;
   position: relative;
   font-size: 28px;
@@ -553,7 +552,6 @@ textarea {
     width: 100%;
     padding-right: 70px;
     height: 7vh;
-    padding: 10px;
   }
 
   .env {
