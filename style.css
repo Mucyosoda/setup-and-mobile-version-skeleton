@@ -567,8 +567,8 @@ textarea {
     border: none;
     padding: 0;
     width: 60px;
+    font-family: "Inter";
     margin-right: 30px;
-    font-family: Inter sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 22px;
