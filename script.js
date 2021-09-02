@@ -58,9 +58,9 @@ aboutLink.addEventListener('click', () => {
   closeIcon.classList.add('d-none');
   window.scrollTo(
     0,
-    header.clientHeight +
-      headlineSection.clientHeight +
-      portfolioSection.clientHeight
+    header.clientHeight
+      + headlineSection.clientHeight
+      + portfolioSection.clientHeight,
   );
 });
 
@@ -71,20 +71,18 @@ contactLink.addEventListener('click', () => {
   navWrap.classList.remove('d-block');
   window.scrollTo(
     0,
-    header.clientHeight +
-      headlineSection.clientHeight +
-      portfolioSection.clientHeight +
-      aboutSection.clientHeight
+    header.clientHeight
+      + headlineSection.clientHeight
+      + portfolioSection.clientHeight
+      + aboutSection.clientHeight,
   );
 });
 
 const submitForm = document.getElementById('submit-form');
 const email = document.getElementById('email');
-const firstName = document.getElementById('name');
 const span = document.getElementsByTagName('span');
-const regex = /^([\.\_a-z0-9]+)@([a-z0-9]+)\.([a-z0-9]){2,8}$/;
-const regexo =
-  /^([\.\_a-zA-Z0-9]+)@([a-zA-Z0-9]+)\.([a-zA-Z0-9]){2,8}\.[a-zA-Z]{1,3}$/;
+const regex = /^([a-z0-9]+)@([a-z0-9]+)\.([a-z0-9]){2,8}$/;
+const regexo = /^([a-zA-Z0-9]+)@([a-zA-Z0-9]+)\.([a-zA-Z0-9]){2,8}\.[a-zA-Z]{1,3}$/;
 
 submitForm.addEventListener('click', (e) => {
   if (regex.test(email.value) || regexo.test(email.value)) {
