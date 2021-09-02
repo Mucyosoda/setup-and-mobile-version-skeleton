@@ -96,9 +96,3 @@ submitForm.addEventListener('click', (e) => {
     e.preventDefault();
   }
 });
-
-window.addEventListener('load', () => {
-  contactForm.elements.name.value = localStorage.getItem('name');
-  contactForm.elements.email.value = localStorage.getItem('email');
-  contactForm.elements.message.value = localStorage.getItem('message');
-});
