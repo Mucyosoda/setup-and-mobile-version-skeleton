@@ -82,26 +82,23 @@ const submitForm = document.getElementById("submit-form");
 const email = document.getElementById("email");
 const firstName = document.getElementById("name");
 const span = document.getElementsByTagName("span");
+const regex = /^([\.\_a-z0-9]+)@([a-z0-9]+)\.([a-z0-9]){2,8}$/;
+const regexo =
+  /^([\.\_a-zA-Z0-9]+)@([a-zA-Z0-9]+)\.([a-zA-Z0-9]){2,8}\.[a-zA-Z]{1,3}$/;
 
-submitForm.addEventListener("click", function () {
-  const regex = /^([\.\_a-z0-9]+)@([a-z0-9]+)\.([a-z0-9]){2,8}$/;
-  const regexo =
-    /^([\.\_a-zA-Z0-9]+)@([a-zA-Z0-9]+)\.([a-zA-Z0-9]){2,8}\.[a-zA-Z]{1,3}$/;
-  const regexn = /^([a-zA-Z])/;
-
+submitForm.addEventListener("click", (e) => {
   if (regex.test(email.value) || regexo.test(email.value)) {
     span[1].innerText = "Your email is valid";
     span[1].style.color = "lime";
   } else {
     span[1].innerText = "Your email is Invalid";
     span[1].style.color = "red";
+    e.preventDefault();
   }
+});
 
-  if (regexn.test(lname.value)) {
-    span[0].innerText = "Your Name is valid";
-    span[0].style.color = "white";
-  } else {
-    span[0].innerText = "Your Name is Invalid";
-    span[0].style.color = "red";
-  }
+window.addEventListener("load", () => {
+  contactForm.elements.name.value = localStorage.getItem("name");
+  contactForm.elements.email.value = localStorage.getItem("email");
+  contactForm.elements.message.value = localStorage.getItem("message");
 });
