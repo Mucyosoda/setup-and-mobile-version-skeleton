@@ -105,27 +105,29 @@
 
         <div class="pop-msg-1 d-none">
           <button class="closeX">&times;</button>
-          <h1 class="title1 d-none">Keeping track of hundreds of components website</h1>
+          <h1 class="title1 d-none">
+            Keeping track of hundreds of components website
+          </h1>
           <h1 class="title2">Multi Post Stories</h1>
           <ul class="links1">
             <li><a href="#"></a>html</li>
             <li class="boot"><a href="#"></a>Bootstrap</li>
             <li><a href="#"></a>Ruby on rails</li>
           </ul>
-          
+
           <p>
-            <img src="images/Imgpop-1.png" alt="pop-up image">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-            veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-            commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-            velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-            occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-            mollit anim id est laborum.
+            <img src="images/Imgpop-1.png" alt="pop-up image" />
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Duis aute irure dolor in
+            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+            culpa qui officia deserunt mollit anim id est laborum.
           </p>
           <button class="btn">
             See Live
-            <img src="./images/live-icon.png" alt="live icon">
+            <img src="./images/live-icon.png" alt="live icon" />
           </button>
           <button class="btn">
             See Source
@@ -173,7 +175,7 @@
               <li class="boot"><a href="#"></a>bootstrap</li>
               <li><a href="#"></a>Ruby</li>
             </ul>
-            <button class="see-btn" type="submit" >See project</button>
+            <button class="see-btn" type="submit">See project</button>
           </div>
 
           <div class="card" id="card_4">
@@ -320,29 +322,42 @@
           </form>
         </div>
         <div class="form_view1">
-          <form action="https://formspree.io/f/mzbykjor" method="POST">
+          <form action="" method="POST">
             <input
               type="text"
+              id="fname"
               name="first_name"
               placeholder="First name"
               maxlength="30"
               required
             />
+
             <input
               type="text"
+              id="lname"
               name="last_name"
               placeholder="last name"
               maxlength="30"
               required
             />
             <br />
-            <input type="email" name="_replyto" placeholder="Email" />
+            <span></span>
+            <br />
+            <input
+              type="email"
+              id="email"
+              name="_replyto"
+              placeholder="Email"
+            />
+            <br />
+            <span></span>
             <br />
             <textarea name="message" maxlength="500" required>
   Hello Mucyo! Glad to see you</textarea
             >
             <br />
-            <button type="submit">Get in touch</button>
+
+            <button type="submit" id="submit-form">Get in touch</button>
           </form>
         </div>
       </div>
