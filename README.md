@@ -10,6 +10,9 @@ Additional description about the project and its features.
 
 - CSS
 - HTML
+- JavaScritp
+- React
+- Redux
 
 ## Live Demo
 
